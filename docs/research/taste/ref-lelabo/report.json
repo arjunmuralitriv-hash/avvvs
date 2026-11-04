@@ -1,0 +1,1307 @@
+{
+ "url": "https://www.lelabofragrances.com",
+ "at": "2026-11-04T06:02:32.792Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 1,
+   "filled": [
+    0.96
+   ],
+   "motion": {
+    "elements": 0,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 3,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 900,
+     "screens": 1,
+     "words": 312,
+     "img": 24,
+     "video": 3,
+     "canvas": 0,
+     "svg": 6,
+     "sections": 5,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 8,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "1674_ONE_SIZE_IMAGE_01_18504_1821297937.jpg",
+      "1635_ONE_SIZE_IMAGE_01_15414_-14777587.jpg",
+      "1675_ONE_SIZE_IMAGE_01_18505_42974821.jpg",
+      "1639_ONE_SIZE_IMAGE_01_15422_156933757.jpeg",
+      "1637_ONE_SIZE_IMAGE_01_15417_-1978431018.jpg",
+      "1676_ONE_SIZE_IMAGE_01_18510_-1688143467.jpg",
+      "1657_ONE_SIZE_IMAGE_01_15948_-1732391517.png"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "FINE FRAGRANCES",
+     "words": 2,
+     "chars": 15,
+     "lines": 1,
+     "size": 23,
+     "vw": 1.6,
+     "font": "Bell Gothic Std",
+     "weight": 400,
+     "tracking": 0,
+     "leading": 1.17,
+     "upper": true,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.2,
+     "top": -17,
+     "tag": "h2",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Le Labo",
+     "words": 2,
+     "lines": 1,
+     "size": 30,
+     "font": "Bell Gothic Std"
+    },
+    "headings": [],
+    "headingSummary": {
+     "count": 0,
+     "maxLines": 0,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": null,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Magda",
+       "share": 0.48,
+       "mono": true
+      },
+      {
+       "family": "Helvetica",
+       "share": 0.29,
+       "mono": false
+      },
+      {
+       "family": "Bell Gothic Std",
+       "share": 0.23,
+       "mono": false
+      }
+     ],
+     "familyCount": 3,
+     "sizes": [
+      13,
+      14,
+      16,
+      18,
+      23
+     ],
+     "sizeCount": 5,
+     "notLoaded": [],
+     "body": {
+      "font": "Magda",
+      "size": 14,
+      "leading": 2.14,
+      "weight": 700,
+      "tracking": 0,
+      "contrast": 7
+     },
+     "measureChars": 100,
+     "max": {
+      "size": 23,
+      "vw": 1.6,
+      "font": "Bell Gothic Std",
+      "text": "FINE FRAGRANCES"
+     },
+     "monoShare": 0.48,
+     "monoProseShare": 0.48,
+     "monoFamilies": [
+      "Magda"
+     ],
+     "monoSamples": [
+      "Every Le Labo creation is mindfully blen",
+      "Track your order",
+      "Don’t wait until the last minute! Order ",
+      "(more info)",
+      "Enjoy complimentary gift packaging on el",
+      "(more info)"
+     ],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.1,
+     "centerShare": 0.43,
+     "smallText": 1
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#f6f8f6",
+     "bodyBgHsl": {
+      "h": 120,
+      "s": 0.12,
+      "l": 0.97
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#f7f7f5",
+       "top": 0,
+       "hsl": {
+        "h": 60,
+        "s": 0.11,
+        "l": 0.96
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#ffffff",
+       "share": 0.67
+      },
+      {
+       "color": "#424242",
+       "share": 0.24
+      },
+      {
+       "color": "#333333",
+       "share": 0.07
+      },
+      {
+       "color": "#6c6c6c",
+       "share": 0.01
+      },
+      {
+       "color": "#f7f7f5",
+       "share": 0.01
+      }
+     ],
+     "button": {
+      "bg": "#595959",
+      "hsl": {
+       "h": 0,
+       "s": 0,
+       "l": 0.35
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 5,
+     "inHero": 5,
+     "radius": 0,
+     "height": 47,
+     "withShadow": 2,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 3,
+     "heroLabels": [
+      "ENTER SITE",
+      "OK, ACCEPT ALL",
+      "PERSONALIZE"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 2,
+     "shadowOverlay": 1,
+     "shadowSamples": [
+      "button#onetrust-accept-btn-handler → rgb(153, 153, 153) 0px 2px 10px -3px",
+      "button#onetrust-pc-btn-handler → rgb(153, 153, 153) 0px 2px 10px -3px"
+     ],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 11,
+     "hairlineSamples": [
+      "div.top-banner.slider-top-banner 1440px",
+      "div.header-wrapper 1440px",
+      "div.header-actions.clear 1132px",
+      "div.slider-thumb-inner 284px",
+      "h2.slide-title 284px"
+     ],
+     "outlinedBoxes": 1,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 1,
+     "boxRadius": 7,
+     "squareMedia": 1,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "bg-image",
+      "ratio": 1
+     }
+    ],
+    "nav": {
+     "links": 0,
+     "fixed": false,
+     "height": 0,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "bell gothic std",
+     "magda",
+     "helvetica"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 900,
+    "margins": {
+     "left": 56,
+     "right": 211
+    },
+    "sections": [],
+    "gaps": [],
+    "h1s": [],
+    "edgeText": [],
+    "edges": [],
+    "leftBlocks": 0,
+    "bodySize": 14,
+    "stage": true,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 2,
+   "filled": [
+    0.94,
+    0.94
+   ],
+   "motion": {
+    "elements": 1,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 1,
+    "videos": 3,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 1378,
+     "screens": 1.3,
+     "words": 218,
+     "img": 24,
+     "video": 3,
+     "canvas": 0,
+     "svg": 6,
+     "sections": 5,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 4,
+     "videoCount": 3,
+     "uiPictures": 0,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 3
+    },
+    "hero": {
+     "text": "FINE FRAGRANCES",
+     "words": 2,
+     "chars": 15,
+     "lines": 1,
+     "size": 23,
+     "vw": 3,
+     "font": "Bell Gothic Std",
+     "weight": 400,
+     "tracking": 0,
+     "leading": 1.17,
+     "upper": true,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.92,
+     "top": 871,
+     "tag": "p",
+     "kind": "statement"
+    },
+    "h1": {
+     "text": "Le Labo",
+     "words": 2,
+     "lines": 1,
+     "size": 30,
+     "font": "Bell Gothic Std"
+    },
+    "headings": [],
+    "headingSummary": {
+     "count": 0,
+     "maxLines": 0,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": null,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Magda",
+       "share": 0.68,
+       "mono": true
+      },
+      {
+       "family": "Bell Gothic Std",
+       "share": 0.26,
+       "mono": false
+      },
+      {
+       "family": "Helvetica",
+       "share": 0.05,
+       "mono": false
+      }
+     ],
+     "familyCount": 3,
+     "sizes": [
+      13,
+      14,
+      16,
+      18,
+      23
+     ],
+     "sizeCount": 5,
+     "notLoaded": [],
+     "body": {
+      "font": "Magda",
+      "size": 14,
+      "leading": 2.14,
+      "weight": 700,
+      "tracking": 0,
+      "contrast": 7
+     },
+     "measureChars": 107,
+     "max": {
+      "size": 23,
+      "vw": 3,
+      "font": "Bell Gothic Std",
+      "text": "FINE FRAGRANCES"
+     },
+     "monoShare": 0.68,
+     "monoProseShare": 0.68,
+     "monoFamilies": [
+      "Magda"
+     ],
+     "monoSamples": [
+      "Every Le Labo creation is mindfully blen",
+      "Track your order",
+      "Don’t wait until the last minute! Order ",
+      "(more info)",
+      "Enjoy complimentary gift packaging on el",
+      "(more info)"
+     ],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.07,
+     "centerShare": 0.61,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ffffff",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 1
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#f6f8f6",
+       "top": 0,
+       "hsl": {
+        "h": 120,
+        "s": 0.12,
+        "l": 0.97
+       }
+      },
+      {
+       "color": "#ffffff",
+       "top": 975,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      },
+      {
+       "color": "#f7f7f5",
+       "top": 0,
+       "hsl": {
+        "h": 60,
+        "s": 0.11,
+        "l": 0.96
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#ffffff",
+       "share": 0.93
+      },
+      {
+       "color": "#333333",
+       "share": 0.03
+      },
+      {
+       "color": "#6c6c6c",
+       "share": 0.01
+      },
+      {
+       "color": "#424242",
+       "share": 0.01
+      },
+      {
+       "color": "#f7f7f5",
+       "share": 0.01
+      }
+     ],
+     "button": {
+      "bg": "#ffffff",
+      "hsl": {
+       "h": 0,
+       "s": 0,
+       "l": 1
+      },
+      "fg": "#333333"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 9,
+     "inHero": 4,
+     "radius": 0,
+     "height": 35,
+     "withShadow": 2,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 3,
+     "heroLabels": [
+      "About Le Labo",
+      "ENTER SITE",
+      "OK, ACCEPT ALL",
+      "PERSONALIZE"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 2,
+     "shadowOverlay": 1,
+     "shadowSamples": [
+      "button#onetrust-accept-btn-handler → rgb(153, 153, 153) 0px 2px 10px -3px",
+      "button#onetrust-pc-btn-handler → rgb(153, 153, 153) 0px 2px 10px -3px"
+     ],
+     "gradients": 1,
+     "scrims": 0,
+     "gradientSamples": [
+      "div.ts-control → linear-gradient(rgb(254, 254, 254), rgb(242, 242, 242))"
+     ],
+     "gradientText": 0,
+     "hairlines": 10,
+     "hairlineSamples": [
+      "div.top-banner.slider-top-banner 768px",
+      "div.header-wrapper 768px",
+      "p.slide-title 707px",
+      "p.slide-title 707px",
+      "p.slide-title 707px"
+     ],
+     "outlinedBoxes": 1,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 5,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "bg-image",
+      "ratio": 1
+     },
+     {
+      "type": "video",
+      "ratio": 0.73
+     }
+    ],
+    "nav": {
+     "links": 0,
+     "fixed": false,
+     "height": 405,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "bell gothic std",
+     "magda",
+     "helvetica"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 1378,
+    "margins": {
+     "left": 0,
+     "right": 22
+    },
+    "sections": [
+     {
+      "sel": "header.header.header-sticky",
+      "tag": "header",
+      "top": 61,
+      "height": 163,
+      "words": 0,
+      "media": 0,
+      "middle": 49,
+      "heading": null,
+      "left": 0,
+      "right": 130,
+      "textLeft": null,
+      "textRight": null,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div.slider.slider-home",
+      "tag": "div",
+      "top": 224,
+      "height": 751,
+      "words": 5,
+      "media": 4,
+      "middle": 0,
+      "heading": null,
+      "left": 30,
+      "right": 525,
+      "textLeft": 30,
+      "textRight": 525,
+      "fullBleed": true,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "footer.footer",
+      "tag": "footer",
+      "top": 975,
+      "height": 393,
+      "words": 12,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 101,
+      "right": 531,
+      "textLeft": 101,
+      "textRight": 531,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [],
+    "edgeText": [
+     {
+      "text": "By continuing using this website, you accept third",
+      "side": "left",
+      "px": 15
+     }
+    ],
+    "edges": [],
+    "leftBlocks": 0,
+    "bodySize": 14,
+    "stage": true,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 4,
+   "filled": [
+    0.88,
+    0.88,
+    0.89,
+    0.89
+   ],
+   "motion": {
+    "elements": 1,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 1,
+    "videos": 3,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 2568,
+     "screens": 3,
+     "words": 278,
+     "img": 24,
+     "video": 3,
+     "canvas": 0,
+     "svg": 6,
+     "sections": 5,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 18,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "1490_SMALL_IMAGE_01_14608_-641884861.jpg",
+      "1262_SMALL_IMAGE_01_13015_-963580589.jpg",
+      "1261_SMALL_IMAGE_01_13016_723691658.jpg",
+      "1260_SMALL_IMAGE_01_13017_1415218809.jpg",
+      "1627_SMALL_IMAGE_01_15074_-2074075262.jpg",
+      "J25DY60000__PRODUCT_01--IMG_360--DISCOVERYSET-13",
+      "J1QL01R000__PRODUCT_01--IMG_360--PAPYRUS20--1018",
+      "J27BY60000__PRODUCT_01--IMG_360--DISCOVERYSET-11"
+     ],
+     "blendText": 0,
+     "sideScrollers": 1,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "SELECT YOUR LOCATION",
+     "words": 3,
+     "chars": 20,
+     "lines": 1,
+     "size": 18,
+     "vw": 4.6,
+     "font": "Bell Gothic Std",
+     "weight": 500,
+     "tracking": -0.04,
+     "leading": 1,
+     "upper": true,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.79,
+     "top": 327,
+     "tag": "p",
+     "kind": "statement"
+    },
+    "h1": {
+     "text": "Le Labo",
+     "words": 2,
+     "lines": 1,
+     "size": 30,
+     "font": "Bell Gothic Std"
+    },
+    "headings": [],
+    "headingSummary": {
+     "count": 0,
+     "maxLines": 0,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": null,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Magda",
+       "share": 0.66,
+       "mono": true
+      },
+      {
+       "family": "Bell Gothic Std",
+       "share": 0.29,
+       "mono": false
+      },
+      {
+       "family": "Helvetica",
+       "share": 0.05,
+       "mono": false
+      }
+     ],
+     "familyCount": 3,
+     "sizes": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      18
+     ],
+     "sizeCount": 6,
+     "notLoaded": [],
+     "body": {
+      "font": "Magda",
+      "size": 12,
+      "leading": 1.67,
+      "weight": 700,
+      "tracking": 0,
+      "contrast": 7
+     },
+     "measureChars": 53,
+     "max": {
+      "size": 18,
+      "vw": 4.6,
+      "font": "Bell Gothic Std",
+      "text": "Select Your Location"
+     },
+     "monoShare": 0.66,
+     "monoProseShare": 0.66,
+     "monoFamilies": [
+      "Magda"
+     ],
+     "monoSamples": [
+      "Every Le Labo creation is mindfully blen",
+      "Track your order",
+      "Don’t wait until the last minute! Order ",
+      "(more info)",
+      "Enjoy complimentary gift packaging on el",
+      "(more info)"
+     ],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.12,
+     "centerShare": 0.56,
+     "smallText": 21
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ffffff",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 1
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#f6f8f6",
+       "top": 0,
+       "hsl": {
+        "h": 120,
+        "s": 0.12,
+        "l": 0.97
+       }
+      },
+      {
+       "color": "#ffffff",
+       "top": 2165,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      },
+      {
+       "color": "#f7f7f5",
+       "top": 0,
+       "hsl": {
+        "h": 60,
+        "s": 0.11,
+        "l": 0.96
+       }
+      },
+      {
+       "color": "#595959",
+       "top": 559,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.35
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#ffffff",
+       "share": 0.83
+      },
+      {
+       "color": "#333333",
+       "share": 0.13
+      },
+      {
+       "color": "#424242",
+       "share": 0.01
+      },
+      {
+       "color": "#6c6c6c",
+       "share": 0.01
+      },
+      {
+       "color": "#f7f7f5",
+       "share": 0.01
+      }
+     ],
+     "button": {
+      "bg": "#ffffff",
+      "hsl": {
+       "h": 0,
+       "s": 0,
+       "l": 1
+      },
+      "fg": "#333333"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 9,
+     "inHero": 3,
+     "radius": 0,
+     "height": 35,
+     "withShadow": 2,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 3,
+     "heroLabels": [
+      "ENTER SITE",
+      "OK, ACCEPT ALL",
+      "PERSONALIZE"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 2,
+     "shadowOverlay": 1,
+     "shadowSamples": [
+      "button#onetrust-accept-btn-handler → rgb(153, 153, 153) 0px 2px 10px -3px",
+      "button#onetrust-pc-btn-handler → rgb(153, 153, 153) 0px 2px 10px -3px"
+     ],
+     "gradients": 1,
+     "scrims": 0,
+     "gradientSamples": [
+      "div#userSettingRegion-ts-control.ts-control → linear-gradient(rgb(254, 254, 254), rgb(242, 242, 242))"
+     ],
+     "gradientText": 0,
+     "hairlines": 13,
+     "hairlineSamples": [
+      "div.top-banner.slider-top-banner 390px",
+      "div.header-wrapper 390px",
+      "p.slide-title 349px",
+      "p.slide-title 349px",
+      "p.slide-title 349px"
+     ],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 10,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "bg-image",
+      "ratio": 1
+     }
+    ],
+    "nav": {
+     "links": 1,
+     "fixed": false,
+     "height": 450,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "bell gothic std",
+     "magda",
+     "helvetica"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 2568,
+    "margins": {
+     "left": 20,
+     "right": 20
+    },
+    "sections": [
+     {
+      "sel": "div.slider.slider-home",
+      "tag": "div",
+      "top": 132,
+      "height": 713,
+      "words": 5,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": 20,
+      "right": 222,
+      "textLeft": 20,
+      "textRight": 222,
+      "fullBleed": true,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div.homepage-mobile-sections.mobile-visible",
+      "tag": "div",
+      "top": 845,
+      "height": 1320,
+      "words": 32,
+      "media": 13,
+      "middle": 173,
+      "heading": {
+       "text": "FINE FRAGRANCES",
+       "size": 14,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 0,
+      "textLeft": 29,
+      "textRight": 64,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "footer.footer",
+      "tag": "footer",
+      "top": 2165,
+      "height": 393,
+      "words": 12,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 20,
+      "right": 234,
+      "textLeft": 20,
+      "textRight": 234,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 201,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 1,
+    "bodySize": 12,
+    "stage": true,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "FAIL",
+   "id": "mono",
+   "width": 1440,
+   "message": "Monospace type outside code: Magda — e.g. \"Every Le Labo creation is mindfully blen\", \"Track your order\", \"Don’t wait until the last minute! Order \", \"(more info)\"",
+   "fix": "Set it in the text face. Monospace is for literal code inside <pre>/<code> only.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "shadow",
+   "width": 1440,
+   "message": "2 box-shadow(s) on elements at rest: button#onetrust-accept-btn-handler → rgb(153, 153, 153) 0px 2px 10px -3px | button#onetrust-pc-btn-handler → rgb(153, 153, 153) 0px 2px 10px -3px",
+   "fix": "Remove. Separate surfaces with a tone step or space. Shadows are for things that really float (menus, dialogs, sticky bars).",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "button-fx",
+   "width": 1440,
+   "message": "Buttons with shadow/glow.",
+   "fix": "Flat fill, one colour.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "hairline",
+   "width": 1440,
+   "message": "11 thin rule(s)/divider line(s): div.top-banner.slider-top-banner 1440px | div.header-wrapper 1440px | div.header-actions.clear 1132px | div.slider-thumb-inner 284px",
+   "fix": "Delete. Separate with space, a tone change, or scale. Lines are only for real tables and form fields.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "outlined-box",
+   "width": 1440,
+   "message": "1 box(es) drawn with a 1px outline.",
+   "fix": "Prefer a filled surface or no box.",
+   "alsoAt": [
+    768
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "font-count",
+   "width": 1440,
+   "message": "3 typefaces in use (Magda, Helvetica, Bell Gothic Std).",
+   "fix": "Two at most.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "body-size",
+   "width": 1440,
+   "message": "Body text is 14px (the size most of the running text is set in).",
+   "fix": "Body copy 16–20px. Map small sizes from blueprints onto your body step.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  },
+  {
+   "level": "WARN",
+   "id": "measure",
+   "width": 1440,
+   "message": "Longest paragraph runs about 100 characters per line.",
+   "fix": "Cap paragraphs at 45–75 characters (max-width: 60ch).",
+   "alsoAt": [
+    768
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "small-text",
+   "width": 1440,
+   "message": "1 text block(s) under 13px.",
+   "fix": "Nothing meant to be read goes below 13px."
+  },
+  {
+   "level": "WARN",
+   "id": "font-not-dealt",
+   "width": 1440,
+   "message": "The sheet dealt Boska and Boska, but the page renders Magda, Helvetica.",
+   "fix": "Load the dealt face (the link on the sheet) and put it first in font-family. A build that falls back to a default face lands on the default look."
+  },
+  {
+   "level": "FAIL",
+   "id": "late-title",
+   "width": 1440,
+   "message": "The title is not readable 1.2s after the page loaded (it has no size yet).",
+   "fix": "Put the headline in the HTML, painted on the first frame; the load sequence only adds arrival and is settled by 1.2s (references/motion.md, \"Load sequence in 1.2 seconds\"). No preloader, no gate, no waiting for the load event.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "off-centre",
+   "width": 1440,
+   "message": "The page sits off-centre: its content comes to 56px from the left edge but only to 211px from the right, at 1440px.",
+   "fix": "Give the page one pair of equal margins. Check the wrapper for a max-width without margin-inline: auto, a grid with an empty last column, or padding on one side only. If one side is meant to hold air, it must still be closed by something that reaches the margin (a picture, the navigation's last item, a figure)."
+  },
+  {
+   "level": "FAIL",
+   "id": "no-title",
+   "width": 1440,
+   "message": "The page has no visible h1.",
+   "fix": "Give the first screen a clear title in an h1 that says what this is (a name with what it does, the product with what it is for, the event with its date and place).",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "still-page",
+   "width": 1440,
+   "message": "Only 0 element(s) moved while the page loaded and scrolled.",
+   "fix": "Build the motion layer (SKILL.md step 9, references/motion.md): the signature move, an entrance for the parts of every section, feedback on every control, and one moving picture. Transform and opacity only, with a reduced-motion fallback."
+  },
+  {
+   "level": "FAIL",
+   "id": "gradient",
+   "width": 768,
+   "message": "1 gradient fill(s): div.ts-control → linear-gradient(rgb(254, 254, 254), rgb(242, 242, 242))",
+   "fix": "Use a flat colour or a real image. The only gradient allowed by default is a neutral scrim over a photo for legibility.",
+   "alsoAt": [
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "no-poster",
+   "width": 768,
+   "message": "3 clip(s) without a poster.",
+   "fix": "Give every clip a poster frame: in the study of 100 Sites of the Day only 31% had one, and the blank or grey boxes before the clips played were recorded as faults (references/imagery.md §11)."
+  },
+  {
+   "level": "WARN",
+   "id": "off-centre",
+   "width": 768,
+   "message": "The margins differ: 0px on the left, 22px on the right, at 768px.",
+   "fix": "Put the navigation and the content on one pair of margins; check for padding on one side only, a scrollbar gutter, or a header on another inset than the page."
+  },
+  {
+   "level": "FAIL",
+   "id": "edge-text",
+   "width": 768,
+   "message": "1 text block(s) sit within 16px of the screen edge: \"By continuing using this websi\" (15px from the left)",
+   "fix": "Keep text inside the page margin (16–32px or more). Only display type deliberately bled past the edge may touch it."
+  },
+  {
+   "level": "WARN",
+   "id": "side-scroll",
+   "width": 390,
+   "message": "1 row(s) scroll sideways with content past their edge.",
+   "fix": "Jurors and most visitors read a row cut at the edge as clipped, not as scrollable. Wrap it onto more lines, or end it inside the grid."
+  },
+  {
+   "level": "FAIL",
+   "id": "small-text",
+   "width": 390,
+   "message": "21 text blocks under 13px.",
+   "fix": "Nothing meant to be read goes below 13px."
+  },
+  {
+   "level": "FAIL",
+   "id": "reduced-hidden",
+   "width": 1440,
+   "message": "With reduced motion requested, 139 text block(s) on the first screen stay invisible: \"VIOLETTE 30\", \"Classic Collection\", \"SANTAL 33\", \"ANOTHER 13\"",
+   "fix": "Put every hidden starting state inside @media (prefers-reduced-motion: no-preference); the reduced page is the finished page (references/motion.md §8)."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "C:\\Users\\arjun\\Documents\\AVVVS\\docs\\research\\taste\\ref-lelabo\\desktop-fold.jpg",
+   "pages": [
+    "C:\\Users\\arjun\\Documents\\AVVVS\\docs\\research\\taste\\ref-lelabo\\desktop-page-01.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "C:\\Users\\arjun\\Documents\\AVVVS\\docs\\research\\taste\\ref-lelabo\\tablet-fold.jpg",
+   "pages": [
+    "C:\\Users\\arjun\\Documents\\AVVVS\\docs\\research\\taste\\ref-lelabo\\tablet-page-01.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "C:\\Users\\arjun\\Documents\\AVVVS\\docs\\research\\taste\\ref-lelabo\\mobile-fold.jpg",
+   "pages": [
+    "C:\\Users\\arjun\\Documents\\AVVVS\\docs\\research\\taste\\ref-lelabo\\mobile-page-01.jpg"
+   ],
+   "film": []
+  }
+ ]
+}

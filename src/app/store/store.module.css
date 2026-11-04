@@ -1,0 +1,4 @@
+/* Hallmark · partial of src/app/globals.css (stamp there) */
+.page { padding-block: var(--space-2xl) var(--space-3xl); }
+.head { display: grid; gap: var(--space-md); margin-bottom: var(--space-xl); }
+.head h1 { font-size: var(--text-display-s); max-width: 18ch; text-wrap: balance; }

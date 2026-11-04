@@ -1,0 +1,5 @@
+/* Hallmark · partial of src/app/globals.css (stamp there) */
+.wrap { display: grid; gap: var(--space-lg); padding-block: var(--space-3xl) var(--section-gap-s); }
+.wrap > * { max-width: 44rem; }
+.lead { font-size: var(--text-lead); line-height: 1.45; max-width: 52ch; }
+.links { display: flex; flex-wrap: wrap; gap: var(--space-sm); margin: var(--space-xs) 0 0; padding: 0; list-style: none; }

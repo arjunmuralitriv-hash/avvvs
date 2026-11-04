@@ -1,0 +1,16 @@
+/* Hallmark · partial of src/app/globals.css (stamp there) */
+.head { display: grid; gap: var(--space-md); padding-block: var(--space-2xl) var(--space-xl); }
+
+.body { padding-block: var(--space-lg) var(--section-gap-s); align-items: start; }
+.form { grid-column: 1 / span 7; min-width: 0; }
+.facts { grid-column: 8 / span 5; min-width: 0; border-top: var(--rule-double) double var(--color-ink); padding-top: var(--space-lg); display: grid; gap: var(--space-md); }
+.factsTitle { font-size: var(--text-title); font-family: var(--font-body); font-weight: 600; }
+
+.dl { margin: 0; }
+.dl > div { display: grid; gap: var(--space-3xs); padding-block: var(--space-md); border-top: var(--rule-hair) solid var(--color-rule); }
+.dl dt { font-size: var(--text-sm); font-weight: 500; color: var(--color-muted); }
+.dl dd { margin: 0; display: grid; gap: var(--space-3xs); font-size: var(--text-lead); line-height: 1.4; }
+.dl a { justify-self: start; }
+
+.dl a:focus-visible { outline: 2px solid var(--color-focus); outline-offset: 2px; transition: none; }
+.dl a:active { color: var(--color-accent-deep); }

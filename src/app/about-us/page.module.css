@@ -1,0 +1,48 @@
+/* Hallmark · partial of src/app/globals.css (stamp there) */
+.head { display: grid; gap: var(--space-lg); padding-block: var(--space-2xl) var(--space-2xl); }
+.facts { display: grid; gap: var(--space-lg); padding-bottom: var(--section-gap-s); }
+.facts h2 { font-size: var(--text-xl); }
+.facts dl { margin: 0; border-top: var(--rule-double) double var(--color-ink); }
+.facts dl > div { display: grid; grid-template-columns: minmax(0, 12rem) minmax(0, 1fr); gap: var(--gap-columns); padding-block: var(--space-md); border-bottom: var(--rule-hair) solid var(--color-rule); }
+.facts dt { font-weight: 600; }
+.facts dd { margin: 0; font-size: var(--text-lead); line-height: 1.4; }
+
+.story { padding-top: var(--space-xl); }
+.storyText { grid-column: 1 / 8; display: grid; gap: var(--space-md); align-content: start; }
+.storyText h2 { margin-bottom: var(--space-sm); }
+.storyImage { grid-column: 9 / 13; align-self: start; }
+.storyImage img { width: 100%; height: auto; }
+
+.people { list-style: none; margin: var(--space-xl) 0 0; padding: 0; display: grid; gap: 0; border-top: var(--rule-hair) solid var(--color-ink); }
+.people li { display: grid; grid-template-columns: 160px minmax(0, 1fr); gap: var(--space-xl); padding-block: var(--space-xl); border-bottom: var(--rule-hair) solid var(--color-rule); align-items: start; }
+.people img { width: 160px; height: auto; border-radius: var(--radius-card); }
+.people div { display: grid; gap: var(--space-xs); max-width: 60ch; }
+.leadership { margin-top: var(--space-xl); font-size: var(--text-lead); }
+
+.profileHead { grid-column: 1 / 5; align-self: start; }
+.profileText { grid-column: 6 / 13; display: grid; gap: var(--space-md); }
+
+.vm { margin: 0; border-top: var(--rule-double) double var(--color-ink); }
+.vm > div { display: grid; grid-template-columns: minmax(0, 4fr) minmax(0, 8fr); gap: var(--gap-columns); padding-block: var(--space-xl); border-bottom: var(--rule-hair) solid var(--color-rule); }
+.vm dt h2 { font-size: var(--text-section); }
+.vm dd { margin: 0; font-family: var(--font-outlier); font-size: var(--text-xl); line-height: 1.35; max-width: 50ch; }
+
+.valuesHead { grid-column: 1 / 6; display: grid; gap: var(--space-md); align-content: start; }
+.values { grid-column: 7 / 13; margin: 0; padding: 0; list-style: none; counter-reset: v; border-top: var(--rule-hair) solid var(--color-ink); }
+.values li { counter-increment: v; display: grid; grid-template-columns: 3rem minmax(0, 1fr); gap: var(--space-md); padding-block: var(--space-md); border-bottom: var(--rule-hair) solid var(--color-rule); font-size: var(--text-lead); line-height: 1.35; }
+.values li::before { content: counter(v) "."; font-family: var(--font-outlier); color: var(--color-accent); font-variant-numeric: tabular-nums; }
+
+.outreachText { margin-top: var(--space-md); font-size: var(--text-lead); max-width: 62ch; }
+.outreachImages { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--gap-columns); margin-top: var(--space-xl); }
+.outreachImages img { width: 100%; height: auto; border-radius: var(--radius-card); }
+
+.next { display: flex; flex-wrap: wrap; gap: var(--space-sm); padding-block: var(--section-gap-s); }
+
+@media (max-width: 60rem) {
+  .facts dl > div { grid-template-columns: minmax(0, 1fr); gap: var(--space-2xs); }
+  .storyImage { max-width: 24rem; }
+  .people li { grid-template-columns: 96px minmax(0, 1fr); gap: var(--space-md); }
+  .people img { width: 96px; }
+  .vm > div { grid-template-columns: minmax(0, 1fr); gap: var(--space-md); }
+  .outreachImages { grid-template-columns: minmax(0, 1fr); }
+}

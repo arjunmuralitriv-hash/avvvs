@@ -1,0 +1,36 @@
+/* Hallmark · partial of src/app/globals.css (stamp there) */
+.root { display: grid; gap: var(--space-2xs); justify-items: start; }
+.label { font-size: var(--text-sm); font-weight: 500; color: var(--color-muted); }
+
+.control {
+  display: inline-grid;
+  grid-template-columns: 48px 56px 48px;
+  height: 48px;
+  border: var(--rule-hair) solid var(--color-ink);
+  border-radius: var(--radius-card);
+  background: var(--color-paper);
+  overflow: hidden;
+}
+.control[aria-busy="true"] { cursor: progress; }
+.control[data-disabled] { opacity: 0.5; cursor: not-allowed; }
+.control:has(.input:focus-visible) { outline: 2px solid var(--color-focus); outline-offset: 2px; }
+.control:has(.input[aria-invalid="true"]) { border-color: var(--color-error); }
+
+.step {
+  display: inline-flex; align-items: center; justify-content: center;
+  border: 0; background: transparent; color: var(--color-ink);
+  font-size: var(--text-lg); line-height: 1; cursor: pointer;
+  transition: background-color var(--dur-micro) var(--ease-out), transform var(--dur-micro) var(--ease-out);
+}
+.step:hover:not(:disabled) { background: var(--color-paper-2); }
+.step:active:not(:disabled) { transform: translateY(1px); }
+.step:focus-visible { outline: 2px solid var(--color-focus); outline-offset: -4px; transition: none; }
+.step:disabled { opacity: 0.4; cursor: not-allowed; }
+
+.input {
+  min-width: 0; width: 100%; border: 0; border-inline: var(--rule-hair) solid var(--color-rule);
+  border-radius: 0; background: transparent; color: var(--color-ink); text-align: center;
+}
+.input:focus-visible { outline: none; }
+.input[aria-invalid="true"] { color: var(--color-error); }
+.input:disabled { cursor: not-allowed; }

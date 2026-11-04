@@ -1,0 +1,29 @@
+/* Hallmark · partial of src/app/globals.css (stamp there) */
+.head { display: grid; grid-template-columns: minmax(0, 8fr) minmax(0, 4fr); gap: var(--gap-columns); align-items: center; padding-block: var(--space-2xl); }
+.headText { display: grid; gap: var(--space-lg); justify-items: start; }
+.headText h1 { font-size: var(--text-display-s); max-width: 16ch; }
+.actions { display: flex; flex-wrap: wrap; gap: var(--space-sm); }
+.pictogram { width: 100%; max-width: 20rem; aspect-ratio: 1; object-fit: cover; justify-self: end; border-radius: var(--radius-card); border: var(--rule-hair) solid var(--color-rule); }
+
+.answer { display: grid; grid-template-columns: minmax(0, 4fr) minmax(0, 8fr); gap: var(--gap-columns); padding-block: var(--space-xl) var(--section-gap-s); border-top: var(--rule-double) double var(--color-ink); }
+.answer h2 { font-size: var(--text-xl); max-width: 14ch; }
+.answerText { display: grid; gap: var(--space-md); font-size: var(--text-lead); line-height: 1.5; }
+.answerText p { max-width: 56ch; }
+
+.related { display: grid; gap: var(--space-lg); padding-bottom: var(--section-gap-s); }
+.related h2 { font-size: var(--text-xl); }
+.related ul { list-style: none; margin: 0; padding: 0; border-top: var(--rule-hair) solid var(--color-ink); }
+.related li { display: grid; grid-template-columns: minmax(0, 4fr) minmax(0, 8fr); gap: var(--gap-columns); padding-block: var(--space-md); border-bottom: var(--rule-hair) solid var(--color-rule); font-size: var(--text-lg); }
+.related li span { color: var(--color-ink-2); font-size: var(--text-md); }
+
+.faqWrap { padding-bottom: var(--section-gap-s); }
+
+.others { display: grid; gap: var(--space-lg); }
+.others h2 { font-size: var(--text-xl); }
+.others ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: var(--space-xs); }
+
+@media (max-width: 60rem) {
+  .head { grid-template-columns: minmax(0, 1fr); }
+  .pictogram { justify-self: start; max-width: 12rem; }
+  .answer, .related li { grid-template-columns: minmax(0, 1fr); gap: var(--space-xs); }
+}

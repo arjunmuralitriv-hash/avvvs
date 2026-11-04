@@ -1,0 +1,18 @@
+/* Hallmark · partial of src/app/globals.css (stamp there) */
+.head { display: grid; gap: var(--space-lg); padding-block: var(--space-2xl); }
+.indexTitle { font-size: var(--text-xl); margin-bottom: var(--space-lg); }
+.index { list-style: none; margin: 0; padding: 0; border-top: var(--rule-double) double var(--color-ink); }
+.index li { display: grid; grid-template-columns: 4rem minmax(0, 6fr) minmax(0, 6fr); gap: var(--gap-columns); align-items: baseline; padding-block: var(--space-lg); border-bottom: var(--rule-hair) solid var(--color-rule); }
+.n { font-family: var(--font-outlier); color: var(--color-accent); font-size: var(--text-xl); }
+.index h3 { font-family: var(--font-display); font-size: var(--text-section); line-height: 1.02; max-width: 22ch; }
+.index p { max-width: 44ch; color: var(--color-ink-2); }
+
+.offerHead { grid-column: 1 / 5; align-self: start; }
+.offerText { grid-column: 6 / 13; display: grid; gap: var(--space-md); font-size: var(--text-md); }
+
+.visit { display: grid; gap: var(--space-lg); justify-items: start; padding-block: var(--section-gap-s); }
+
+@media (max-width: 60rem) {
+  .index li { grid-template-columns: 2.5rem minmax(0, 1fr); row-gap: var(--space-xs); }
+  .index li p { grid-column: 2; }
+}

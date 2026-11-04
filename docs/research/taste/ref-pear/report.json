@@ -1,0 +1,1692 @@
+{
+ "url": "https://pear.no",
+ "at": "2026-11-04T05:59:44.023Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 12,
+   "filled": [
+    0.99,
+    0.99,
+    0.99,
+    0.99,
+    0.99,
+    0.99,
+    0.99,
+    0.99,
+    0.99,
+    0.99,
+    0.99,
+    0.99
+   ],
+   "motion": {
+    "elements": 479,
+    "css": 86,
+    "transitions": 6,
+    "scripted": 387,
+    "videos": 2,
+    "playingVideos": 1
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 48150,
+     "screens": 53.5,
+     "words": 634,
+     "img": 0,
+     "video": 2,
+     "canvas": 5,
+     "svg": 31,
+     "sections": 1,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 1,
+     "videoCount": 1,
+     "uiPictures": 0,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 1
+    },
+    "hero": {
+     "text": "Asked before",
+     "words": 2,
+     "chars": 12,
+     "lines": 1,
+     "size": 116.8,
+     "vw": 8.1,
+     "font": "Flecha L",
+     "weight": 300,
+     "tracking": -0.024,
+     "leading": 1.04,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "center",
+     "position": "center",
+     "widthRatio": 0.67,
+     "top": 225,
+     "tag": "p",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Pear makes you appear.",
+     "words": 4,
+     "lines": 1,
+     "size": 77.1,
+     "font": "Flecha M"
+    },
+    "headings": [
+     {
+      "text": "Asked before",
+      "words": 2,
+      "chars": 12,
+      "lines": 1,
+      "size": 116.8,
+      "vw": 8.1,
+      "font": "Flecha L",
+      "weight": 300,
+      "tracking": -0.024,
+      "leading": 1.04,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.67,
+      "top": 225,
+      "tag": "p",
+      "kind": "heading"
+     },
+     {
+      "text": "No fees. A share of the upside.",
+      "words": 7,
+      "chars": 31,
+      "lines": 2,
+      "size": 77.9,
+      "vw": 5.4,
+      "font": "Flecha M",
+      "weight": 300,
+      "tracking": -0.02,
+      "leading": 0.88,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.36,
+      "top": 267,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Pear makes you appear.",
+      "words": 4,
+      "chars": 22,
+      "lines": 1,
+      "size": 77.1,
+      "vw": 5.4,
+      "font": "Flecha M",
+      "weight": 300,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.48,
+      "top": 340,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "We say no more often than yes.",
+      "words": 7,
+      "chars": 30,
+      "lines": 2,
+      "size": 77.9,
+      "vw": 5.4,
+      "font": "Flecha M",
+      "weight": 300,
+      "tracking": -0.02,
+      "leading": 0.88,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.66,
+      "top": 1213,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 4,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 1,
+     "medianWords": 7,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "GT Standard L",
+       "share": 0.51,
+       "mono": false
+      },
+      {
+       "family": "Flecha S",
+       "share": 0.31,
+       "mono": false
+      },
+      {
+       "family": "GT Standard Mono",
+       "share": 0.12,
+       "mono": true
+      },
+      {
+       "family": "Flecha M",
+       "share": 0.05,
+       "mono": false
+      },
+      {
+       "family": "Flecha L",
+       "share": 0.01,
+       "mono": false
+      }
+     ],
+     "familyCount": 5,
+     "sizes": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      15,
+      16,
+      20,
+      23,
+      24,
+      27,
+      77,
+      78,
+      117
+     ],
+     "sizeCount": 14,
+     "notLoaded": [],
+     "body": {
+      "font": "GT Standard L",
+      "size": 15.8,
+      "leading": 1.26,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": null
+     },
+     "measureChars": 38,
+     "max": {
+      "size": 116.8,
+      "vw": 8.1,
+      "font": "Flecha L",
+      "text": "Asked before"
+     },
+     "monoShare": 0.12,
+     "monoProseShare": 0.12,
+     "monoFamilies": [
+      "GT Standard Mono"
+     ],
+     "monoSamples": [
+      "PEAR AS · ORG NR 919 062 517 · OSLO",
+      "INFO@PEAR.NO",
+      "The application",
+      "Send the application",
+      "Full disclosure",
+      "Full disclosure"
+     ],
+     "microLabels": 1,
+     "microLabelShare": 0.007,
+     "microSamples": [
+      "At your service"
+     ],
+     "upperShare": 0.12,
+     "centerShare": 0.04,
+     "smallText": 12
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#0b0a09",
+     "bodyBgHsl": {
+      "h": 30,
+      "s": 0.1,
+      "l": 0.04
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#0b0a09",
+       "top": 0,
+       "hsl": {
+        "h": 30,
+        "s": 0.1,
+        "l": 0.04
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#ffffff",
+       "share": 0.58
+      },
+      {
+       "color": "#2e2109",
+       "share": 0.21
+      },
+      {
+       "color": "#fffaea",
+       "share": 0.19
+      },
+      {
+       "color": "#f2f1ed",
+       "share": 0.02
+      },
+      {
+       "color": "#1d1c19",
+       "share": 0.01
+      }
+     ],
+     "button": {
+      "bg": "#0b0a09",
+      "hsl": {
+       "h": 30,
+       "s": 0.1,
+       "l": 0.04
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 2,
+     "inHero": 2,
+     "radius": 4,
+     "height": 30,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 1,
+     "upper": 1,
+     "heroLabels": [
+      "APPLY →",
+      "REQUEST PARTNERSHIP → REQUEST PARTNERSHI"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 4,
+     "scrims": 0,
+     "gradientSamples": [
+      "div.fly-w → radial-gradient(120% 90% at 50% 42%, rgb(255, 255, 255) 0%, rgb(239, 244, 250) 55%, rgb(220, 230, 242) 100%)",
+      "div.cf-f → linear-gradient(157deg, rgba(255, 255, 255, 0.17) 0%, rgba(255, 255, 255, 0.035) 38%, rgba(190, 220, 255, 0.09",
+      "span.rim → conic-gradient(rgba(255, 255, 255, 0.54), rgba(255, 255, 255, 0.098) 11%, rgba(255, 255, 255, 0.616) 25%, rgba",
+      "span.rim2 → conic-gradient(from 500deg, rgba(255, 255, 255, 0.106), rgba(255, 255, 255, 0.56) 18%, rgba(255, 255, 255, 0.0"
+     ],
+     "gradientText": 0,
+     "hairlines": 4,
+     "hairlineSamples": [
+      "i 900px rule",
+      "i 824px rule",
+      "i 1440px rule",
+      "i 1440px rule"
+     ],
+     "outlinedBoxes": 1,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 1,
+     "boxRadius": 99,
+     "squareMedia": 6,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "canvas",
+      "ratio": 1
+     },
+     {
+      "type": "svg",
+      "ratio": 1
+     },
+     {
+      "type": "video",
+      "ratio": 1
+     },
+     {
+      "type": "canvas",
+      "ratio": 1
+     }
+    ],
+    "nav": {
+     "links": 1,
+     "fixed": true,
+     "height": 900,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "gt standard l",
+     "gt standard mono",
+     "flecha l",
+     "flecha m",
+     "flecha s"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 48150,
+    "margins": {
+     "left": 121,
+     "right": 65
+    },
+    "sections": [
+     {
+      "sel": "canvas.gl",
+      "tag": "canvas",
+      "top": 0,
+      "height": 900,
+      "words": 0,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": null,
+      "right": null,
+      "textLeft": null,
+      "textRight": null,
+      "fullBleed": true,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div.sign",
+      "tag": "div",
+      "top": 225,
+      "height": 158,
+      "words": 0,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": null,
+      "right": null,
+      "textLeft": null,
+      "textRight": null,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div.ov.go",
+      "tag": "div",
+      "top": 0,
+      "height": 900,
+      "words": 8,
+      "media": 1,
+      "middle": 1075,
+      "heading": null,
+      "left": 121,
+      "right": 65,
+      "textLeft": 121,
+      "textRight": 65,
+      "fullBleed": true,
+      "footer": true,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Pear makes you appear.",
+      "size": 77,
+      "top": 340,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [],
+    "leftBlocks": 0,
+    "bodySize": 16,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 12,
+   "filled": [
+    0.99,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "motion": {
+    "elements": 465,
+    "css": 76,
+    "transitions": 2,
+    "scripted": 387,
+    "videos": 2,
+    "playingVideos": 1
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 54784,
+     "screens": 53.5,
+     "words": 624,
+     "img": 0,
+     "video": 2,
+     "canvas": 5,
+     "svg": 31,
+     "sections": 1,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 1,
+     "videoCount": 1,
+     "uiPictures": 0,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 1
+    },
+    "hero": {
+     "text": "No fees. A share of the upside.",
+     "words": 7,
+     "chars": 31,
+     "lines": 1,
+     "size": 77.9,
+     "vw": 10.1,
+     "font": "Flecha M",
+     "weight": 300,
+     "tracking": -0.02,
+     "leading": 0.88,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "right",
+     "widthRatio": 0.36,
+     "top": 415,
+     "tag": "h2",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Pear makes you appear.",
+     "words": 4,
+     "lines": 1,
+     "size": 41.1,
+     "font": "Flecha M"
+    },
+    "headings": [
+     {
+      "text": "Asked before",
+      "words": 2,
+      "chars": 12,
+      "lines": 1,
+      "size": 62.3,
+      "vw": 8.1,
+      "font": "Flecha L",
+      "weight": 300,
+      "tracking": -0.024,
+      "leading": 1.04,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.67,
+      "top": 261,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "No fees. A share of the upside.",
+      "words": 7,
+      "chars": 31,
+      "lines": 1,
+      "size": 77.9,
+      "vw": 10.1,
+      "font": "Flecha M",
+      "weight": 300,
+      "tracking": -0.02,
+      "leading": 0.88,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.36,
+      "top": 415,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Not an agency on the clock, a partner in the upside.",
+      "words": 11,
+      "chars": 52,
+      "lines": 2,
+      "size": 26.6,
+      "vw": 3.5,
+      "font": "Flecha S",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.45,
+      "top": 446,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Pear makes you appear.",
+      "words": 4,
+      "chars": 22,
+      "lines": 1,
+      "size": 41.1,
+      "vw": 5.4,
+      "font": "Flecha M",
+      "weight": 300,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.48,
+      "top": 496,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "We say no more often than yes.",
+      "words": 7,
+      "chars": 30,
+      "lines": 2,
+      "size": 77.9,
+      "vw": 10.1,
+      "font": "Flecha M",
+      "weight": 300,
+      "tracking": -0.02,
+      "leading": 0.88,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.66,
+      "top": 693,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 5,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 2,
+     "centered": 2,
+     "medianWords": 7,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "GT Standard L",
+       "share": 0.52,
+       "mono": false
+      },
+      {
+       "family": "Flecha S",
+       "share": 0.32,
+       "mono": false
+      },
+      {
+       "family": "GT Standard Mono",
+       "share": 0.1,
+       "mono": true
+      },
+      {
+       "family": "Flecha M",
+       "share": 0.05,
+       "mono": false
+      },
+      {
+       "family": "Flecha L",
+       "share": 0.01,
+       "mono": false
+      }
+     ],
+     "familyCount": 5,
+     "sizes": [
+      8,
+      9,
+      11,
+      12,
+      13,
+      14,
+      16,
+      20,
+      23,
+      24,
+      27,
+      41,
+      62,
+      78
+     ],
+     "sizeCount": 14,
+     "notLoaded": [],
+     "body": {
+      "font": "GT Standard L",
+      "size": 15.8,
+      "leading": 1.26,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": null
+     },
+     "measureChars": 20,
+     "max": {
+      "size": 77.9,
+      "vw": 10.1,
+      "font": "Flecha M",
+      "text": "No fees. A share"
+     },
+     "monoShare": 0.1,
+     "monoProseShare": 0.1,
+     "monoFamilies": [
+      "GT Standard Mono"
+     ],
+     "monoSamples": [
+      "PEAR AS · ORG NR 919 062 517 · OSLO",
+      "INFO@PEAR.NO",
+      "The application",
+      "Send the application",
+      "Full disclosure",
+      "Full disclosure"
+     ],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.1,
+     "centerShare": 0.04,
+     "smallText": 11
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#0b0a09",
+     "bodyBgHsl": {
+      "h": 30,
+      "s": 0.1,
+      "l": 0.04
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#0b0a09",
+       "top": 0,
+       "hsl": {
+        "h": 30,
+        "s": 0.1,
+        "l": 0.04
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#ffffff",
+       "share": 0.57
+      },
+      {
+       "color": "#2e2109",
+       "share": 0.21
+      },
+      {
+       "color": "#fffaea",
+       "share": 0.19
+      },
+      {
+       "color": "#f2f1ed",
+       "share": 0.02
+      },
+      {
+       "color": "#1d1c19",
+       "share": 0.01
+      }
+     ],
+     "button": {
+      "bg": "#14161b",
+      "hsl": {
+       "h": 223,
+       "s": 0.15,
+       "l": 0.09
+      },
+      "fg": "#f2f1ed"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 2,
+     "inHero": 2,
+     "radius": "pill",
+     "height": 66,
+     "withShadow": 1,
+     "withGradient": 1,
+     "mono": 1,
+     "upper": 1,
+     "heroLabels": [
+      "SEND THE APPLICATION",
+      "REQUEST PARTNERSHIP → REQUEST PARTNERSHI"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 4,
+     "scrims": 0,
+     "gradientSamples": [
+      "div.fly-w → radial-gradient(120% 90% at 50% 42%, rgb(255, 255, 255) 0%, rgb(239, 244, 250) 55%, rgb(220, 230, 242) 100%)",
+      "div.cf-f → linear-gradient(157deg, rgba(255, 255, 255, 0.17) 0%, rgba(255, 255, 255, 0.035) 38%, rgba(190, 220, 255, 0.09",
+      "span.rim → conic-gradient(rgba(255, 255, 255, 0.54), rgba(255, 255, 255, 0.098) 11%, rgba(255, 255, 255, 0.616) 25%, rgba",
+      "span.rim2 → conic-gradient(from 500deg, rgba(255, 255, 255, 0.106), rgba(255, 255, 255, 0.56) 18%, rgba(255, 255, 255, 0.0"
+     ],
+     "gradientText": 0,
+     "hairlines": 2,
+     "hairlineSamples": [
+      "i 768px rule",
+      "i 768px rule"
+     ],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 6,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "canvas",
+      "ratio": 1
+     },
+     {
+      "type": "svg",
+      "ratio": 1
+     },
+     {
+      "type": "video",
+      "ratio": 1
+     },
+     {
+      "type": "canvas",
+      "ratio": 1
+     }
+    ],
+    "nav": {
+     "links": 1,
+     "fixed": true,
+     "height": 1024,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "gt standard l",
+     "gt standard mono",
+     "flecha l",
+     "flecha m",
+     "flecha s"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 54784,
+    "margins": {
+     "left": 110,
+     "right": 47
+    },
+    "sections": [
+     {
+      "sel": "canvas.gl",
+      "tag": "canvas",
+      "top": 0,
+      "height": 1024,
+      "words": 0,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": null,
+      "right": null,
+      "textLeft": null,
+      "textRight": null,
+      "fullBleed": true,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div.ov.go",
+      "tag": "div",
+      "top": 0,
+      "height": 1024,
+      "words": 5,
+      "media": 1,
+      "middle": 445,
+      "heading": null,
+      "left": 110,
+      "right": 47,
+      "textLeft": 110,
+      "textRight": 47,
+      "fullBleed": true,
+      "footer": true,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Pear makes you appear.",
+      "size": 41,
+      "top": 496,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [],
+    "leftBlocks": 0,
+    "bodySize": 16,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 12,
+   "filled": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "motion": {
+    "elements": 413,
+    "css": 75,
+    "transitions": 1,
+    "scripted": 337,
+    "videos": 2,
+    "playingVideos": 1
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 61612,
+     "screens": 73,
+     "words": 624,
+     "img": 0,
+     "video": 2,
+     "canvas": 5,
+     "svg": 31,
+     "sections": 1,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 1,
+     "videoCount": 1,
+     "uiPictures": 0,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 1
+    },
+    "hero": {
+     "text": "We say no more often than yes.",
+     "words": 7,
+     "chars": 30,
+     "lines": 2,
+     "size": 55.7,
+     "vw": 14.3,
+     "font": "Flecha M",
+     "weight": 300,
+     "tracking": -0.02,
+     "leading": 0.88,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "right",
+     "widthRatio": 1.2,
+     "top": 608,
+     "tag": "h2",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Pear makes you appear.",
+     "words": 4,
+     "lines": 1,
+     "size": 30,
+     "font": "Flecha M"
+    },
+    "headings": [
+     {
+      "text": "Asked before",
+      "words": 2,
+      "chars": 12,
+      "lines": 1,
+      "size": 38.5,
+      "vw": 9.9,
+      "font": "Flecha L",
+      "weight": 300,
+      "tracking": -0.024,
+      "leading": 1.04,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.58,
+      "top": 215,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Not an agency on the clock, a partner in the upside.",
+      "words": 11,
+      "chars": 52,
+      "lines": 2,
+      "size": 26.6,
+      "vw": 6.8,
+      "font": "Flecha S",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 356,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Pear makes you appear.",
+      "words": 4,
+      "chars": 22,
+      "lines": 1,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Flecha M",
+      "weight": 300,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.69,
+      "top": 400,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "No fees. A share of the upside.",
+      "words": 7,
+      "chars": 31,
+      "lines": 2,
+      "size": 31,
+      "vw": 7.9,
+      "font": "Flecha M",
+      "weight": 300,
+      "tracking": -0.02,
+      "leading": 0.97,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.83,
+      "top": 469,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "We say no more often than yes.",
+      "words": 7,
+      "chars": 30,
+      "lines": 2,
+      "size": 55.7,
+      "vw": 14.3,
+      "font": "Flecha M",
+      "weight": 300,
+      "tracking": -0.02,
+      "leading": 0.88,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 1.2,
+      "top": 608,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 5,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 2,
+     "centered": 2,
+     "medianWords": 7,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "GT Standard L",
+       "share": 0.52,
+       "mono": false
+      },
+      {
+       "family": "Flecha S",
+       "share": 0.32,
+       "mono": false
+      },
+      {
+       "family": "GT Standard Mono",
+       "share": 0.11,
+       "mono": true
+      },
+      {
+       "family": "Flecha M",
+       "share": 0.05,
+       "mono": false
+      },
+      {
+       "family": "Flecha L",
+       "share": 0.01,
+       "mono": false
+      }
+     ],
+     "familyCount": 5,
+     "sizes": [
+      8,
+      9,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      20,
+      27,
+      30,
+      31,
+      39,
+      56
+     ],
+     "sizeCount": 14,
+     "notLoaded": [],
+     "body": {
+      "font": "GT Standard L",
+      "size": 14.6,
+      "leading": 1.33,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": null
+     },
+     "measureChars": 49,
+     "max": {
+      "size": 55.7,
+      "vw": 14.3,
+      "font": "Flecha M",
+      "text": "We say no more"
+     },
+     "monoShare": 0.11,
+     "monoProseShare": 0.11,
+     "monoFamilies": [
+      "GT Standard Mono"
+     ],
+     "monoSamples": [
+      "PEAR AS · ORG NR 919 062 517 · OSLO",
+      "INFO@PEAR.NO",
+      "The application",
+      "Send the application",
+      "Full disclosure",
+      "Full disclosure"
+     ],
+     "microLabels": 1,
+     "microLabelShare": 0.007,
+     "microSamples": [
+      "At your service"
+     ],
+     "upperShare": 0.11,
+     "centerShare": 0.04,
+     "smallText": 12
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#0b0a09",
+     "bodyBgHsl": {
+      "h": 30,
+      "s": 0.1,
+      "l": 0.04
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#0b0a09",
+       "top": 0,
+       "hsl": {
+        "h": 30,
+        "s": 0.1,
+        "l": 0.04
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#ffffff",
+       "share": 0.57
+      },
+      {
+       "color": "#2e2109",
+       "share": 0.21
+      },
+      {
+       "color": "#fffaea",
+       "share": 0.19
+      },
+      {
+       "color": "#f2f1ed",
+       "share": 0.02
+      },
+      {
+       "color": "#1d1c19",
+       "share": 0.01
+      }
+     ],
+     "button": {
+      "bg": "#14161b",
+      "hsl": {
+       "h": 223,
+       "s": 0.15,
+       "l": 0.09
+      },
+      "fg": "#f2f1ed"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 2,
+     "inHero": 2,
+     "radius": "pill",
+     "height": 71,
+     "withShadow": 1,
+     "withGradient": 1,
+     "mono": 1,
+     "upper": 1,
+     "heroLabels": [
+      "SEND THE APPLICATION",
+      "REQUEST PARTNERSHIP → REQUEST PARTNERSHI"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 11,
+     "scrims": 0,
+     "gradientSamples": [
+      "div.fly-w → radial-gradient(120% 90% at 50% 42%, rgb(255, 255, 255) 0%, rgb(239, 244, 250) 55%, rgb(220, 230, 242) 100%)",
+      "div.cf-f.pill → linear-gradient(157deg, rgba(255, 255, 255, 0.17) 0%, rgba(255, 255, 255, 0.035) 38%, rgba(190, 220, 255, 0.09",
+      "span.rim → conic-gradient(rgba(255, 255, 255, 0.54), rgba(255, 255, 255, 0.098) 11%, rgba(255, 255, 255, 0.616) 25%, rgba",
+      "span.rim2 → conic-gradient(from 500deg, rgba(255, 255, 255, 0.106), rgba(255, 255, 255, 0.56) 18%, rgba(255, 255, 255, 0.0"
+     ],
+     "gradientText": 0,
+     "hairlines": 4,
+     "hairlineSamples": [
+      "i 844px rule",
+      "i 844px rule",
+      "i 390px rule",
+      "i 390px rule"
+     ],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 6,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 21,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "canvas",
+      "ratio": 1
+     },
+     {
+      "type": "svg",
+      "ratio": 1
+     },
+     {
+      "type": "video",
+      "ratio": 1
+     },
+     {
+      "type": "canvas",
+      "ratio": 1
+     }
+    ],
+    "nav": {
+     "links": 0,
+     "fixed": true,
+     "height": 844,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "gt standard l",
+     "gt standard mono",
+     "flecha l",
+     "flecha m",
+     "flecha s"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 61612,
+    "margins": {
+     "left": 41,
+     "right": 217
+    },
+    "sections": [
+     {
+      "sel": "canvas.gl",
+      "tag": "canvas",
+      "top": 0,
+      "height": 844,
+      "words": 0,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": null,
+      "right": null,
+      "textLeft": null,
+      "textRight": null,
+      "fullBleed": true,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div.ov.go",
+      "tag": "div",
+      "top": 0,
+      "height": 844,
+      "words": 7,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": 41,
+      "right": 217,
+      "textLeft": 41,
+      "textRight": 217,
+      "fullBleed": true,
+      "footer": true,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Pear makes you appear.",
+      "size": 30,
+      "top": 400,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [],
+    "leftBlocks": 0,
+    "bodySize": 16,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "FAIL",
+   "id": "mono",
+   "width": 1440,
+   "message": "Monospace type outside code: GT Standard Mono — e.g. \"PEAR AS · ORG NR 919 062 517 · OSLO\", \"INFO@PEAR.NO\", \"The application\", \"Send the application\"",
+   "fix": "Set it in the text face. Monospace is for literal code inside <pre>/<code> only.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "micro-label",
+   "width": 1440,
+   "message": "1 tiny uppercase letter-spaced label(s): \"At your service\"",
+   "fix": "Prefer sentence case at body size.",
+   "alsoAt": [
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "gradient",
+   "width": 1440,
+   "message": "4 gradient fill(s): div.fly-w → radial-gradient(120% 90% at 50% 42%, rgb(255, 255, 255) 0%, rgb(239, 244, 250) 55%, rgb(220, 230, 242) 100%) | div.cf-f → linear-gradient(157deg, rgba(255, 255, 255, 0.17) 0%, rgba(255, 255, 255, 0.035) 38%, rgba(190, 220, 255, 0.09 | span.rim → conic-gradient(rgba(255, 255, 255, 0.54), rgba(255, 255, 255, 0.098) 11%, rgba(255, 255, 255, 0.616) 25%, rgba",
+   "fix": "Use a flat colour or a real image. The only gradient allowed by default is a neutral scrim over a photo for legibility.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "hairline",
+   "width": 1440,
+   "message": "4 thin rule(s)/divider line(s): i 900px rule | i 824px rule | i 1440px rule | i 1440px rule",
+   "fix": "Delete. Separate with space, a tone change, or scale. Lines are only for real tables and form fields.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "outlined-box",
+   "width": 1440,
+   "message": "1 box(es) drawn with a 1px outline.",
+   "fix": "Prefer a filled surface or no box."
+  },
+  {
+   "level": "WARN",
+   "id": "palette-cream",
+   "width": 1440,
+   "message": "Yellow-cream background (text #fffaea, text #f2f1ed).",
+   "fix": "Use the drawn palette. If you want warmth, take a low-chroma stone or bone, not a yellow cream.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "font-count",
+   "width": 1440,
+   "message": "4 typefaces in use (GT Standard L, Flecha S, GT Standard Mono, Flecha M).",
+   "fix": "Two at most: one display, one text. Often one is enough.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "size-count",
+   "width": 1440,
+   "message": "14 different font sizes (8, 9, 10, 11, 12, 15, 16, 20, 23, 24, 27, 77, 78, 117).",
+   "fix": "A page needs about five: display, heading, lead, body, small.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "body-size",
+   "width": 1440,
+   "message": "Body text is 15.8px.",
+   "fix": "Body copy 16–20px.",
+   "alsoAt": [
+    768
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "few-pictures",
+   "width": 1440,
+   "message": "Only 1 picture(s) on the page (1 photographs, footage or raster images, 0 interface fragments). Drawings in SVG do not count.",
+   "fix": "Find real pictures of the subject's world with scripts/assets.mjs (photographs, archival images, maps, engravings, footage), download them to assets/ and give them room: a hero picture, one per section that has a subject, a full-width band. At least four, usually six to twelve."
+  },
+  {
+   "level": "WARN",
+   "id": "no-poster",
+   "width": 1440,
+   "message": "1 clip(s) without a poster.",
+   "fix": "Give every clip a poster frame: in the study of 100 Sites of the Day only 31% had one, and the blank or grey boxes before the clips played were recorded as faults (references/imagery.md §11).",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "small-text",
+   "width": 1440,
+   "message": "12 text blocks under 13px.",
+   "fix": "Nothing meant to be read goes below 13px.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "font-not-dealt",
+   "width": 1440,
+   "message": "The sheet dealt Boska and Boska, but the page renders GT Standard L, Flecha S.",
+   "fix": "Load the dealt face (the link on the sheet) and put it first in font-family. A build that falls back to a default face lands on the default look."
+  },
+  {
+   "level": "FAIL",
+   "id": "late-title",
+   "width": 1440,
+   "message": "The title is not readable 1.2s after the page loaded (something lies over it).",
+   "fix": "Put the headline in the HTML, painted on the first frame; the load sequence only adds arrival and is settled by 1.2s (references/motion.md, \"Load sequence in 1.2 seconds\"). No preloader, no gate, no waiting for the load event.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "off-centre",
+   "width": 1440,
+   "message": "The margins differ: 121px on the left, 65px on the right, at 1440px.",
+   "fix": "Put the navigation and the content on one pair of margins; check for padding on one side only, a scrollbar gutter, or a header on another inset than the page."
+  },
+  {
+   "level": "WARN",
+   "id": "long-pin",
+   "width": 1440,
+   "message": "The same large text stays on screen for 12 screens in a row: \"Asked before\"; \"No fees. A share of the upside.\"",
+   "fix": "A pinned element earns two screens, and something must change at each. Shorten the run or give every screen its own content."
+  },
+  {
+   "level": "FAIL",
+   "id": "button-fx",
+   "width": 768,
+   "message": "Buttons with gradient fill and shadow/glow.",
+   "fix": "Flat fill, one colour.",
+   "alsoAt": [
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "off-centre",
+   "width": 768,
+   "message": "The page sits off-centre: its content comes to 110px from the left edge but only to 47px from the right, at 768px.",
+   "fix": "Give the page one pair of equal margins. Check the wrapper for a max-width without margin-inline: auto, a grid with an empty last column, or padding on one side only. If one side is meant to hold air, it must still be closed by something that reaches the margin (a picture, the navigation's last item, a figure).",
+   "alsoAt": [
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "text-shadow",
+   "width": 390,
+   "message": "21 text-shadow(s).",
+   "fix": "Remove; fix legibility with a scrim or a different crop."
+  },
+  {
+   "level": "FAIL",
+   "id": "body-size",
+   "width": 390,
+   "message": "Body text is 14.6px (the size most of the running text is set in).",
+   "fix": "Body copy 16–20px. Map small sizes from blueprints onto your body step."
+  },
+  {
+   "level": "FAIL",
+   "id": "reduced-hidden",
+   "width": 1440,
+   "message": "With reduced motion requested, 5 text block(s) on the first screen stay invisible: \"The Model\", \"The Work\", \"The Terms\", \"Questions\"",
+   "fix": "Put every hidden starting state inside @media (prefers-reduced-motion: no-preference); the reduced page is the finished page (references/motion.md §8)."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "C:\\Users\\arjun\\Documents\\AVVVS\\docs\\research\\taste\\ref-pear\\desktop-fold.jpg",
+   "pages": [
+    "C:\\Users\\arjun\\Documents\\AVVVS\\docs\\research\\taste\\ref-pear\\desktop-page-01.jpg",
+    "C:\\Users\\arjun\\Documents\\AVVVS\\docs\\research\\taste\\ref-pear\\desktop-page-02.jpg",
+    "C:\\Users\\arjun\\Documents\\AVVVS\\docs\\research\\taste\\ref-pear\\desktop-page-03.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "C:\\Users\\arjun\\Documents\\AVVVS\\docs\\research\\taste\\ref-pear\\tablet-fold.jpg",
+   "pages": [
+    "C:\\Users\\arjun\\Documents\\AVVVS\\docs\\research\\taste\\ref-pear\\tablet-page-01.jpg",
+    "C:\\Users\\arjun\\Documents\\AVVVS\\docs\\research\\taste\\ref-pear\\tablet-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "C:\\Users\\arjun\\Documents\\AVVVS\\docs\\research\\taste\\ref-pear\\mobile-fold.jpg",
+   "pages": [
+    "C:\\Users\\arjun\\Documents\\AVVVS\\docs\\research\\taste\\ref-pear\\mobile-page-01.jpg",
+    "C:\\Users\\arjun\\Documents\\AVVVS\\docs\\research\\taste\\ref-pear\\mobile-page-02.jpg"
+   ],
+   "film": []
+  }
+ ]
+}

@@ -1,0 +1,89 @@
+# AVVVS colour tokens: computed contrast (WCAG 2.x), generated 2026-11-04 by scratch contrast.mjs (OKLCH -> sRGB, Bjorn Ottosson matrices)
+
+## LIGHT
+bg                 oklch(97.5% 0.005 95) #f8f7f3 
+surface            oklch(94.5% 0.007 95) #eeede8 
+surface2           oklch(91.0% 0.009 95) #e3e1db 
+ink                oklch(22.0% 0.012 170) #151c1a 
+muted              oklch(47.0% 0.012 170) #555d5a 
+accent             oklch(50.0% 0.133 247.3) #0067aa 
+accentHover        oklch(43.0% 0.11 248) #0b5388 
+accentInk          oklch(98.5% 0.006 95) #fbfaf6 
+cream              oklch(98.2% 0.048 102.2) #fffbd6 
+maroon             oklch(35.6% 0.082 22.1) #602828 
+maroonInk          oklch(95.0% 0.012 90) #f1eee6 
+maroonMuted        oklch(83.0% 0.03 40) #dac1b9 
+error              oklch(50.5% 0.185 27) #b72121 
+success            oklch(48.0% 0.1 155) #236e44 
+ink on bg                                16.05 PASS (need 7)
+ink on surface                           14.69 PASS (need 7)
+ink on surface2                          13.21 PASS (need 4.5)
+muted on bg                              6.31 PASS (need 4.5)
+muted on surface                         5.78 PASS (need 4.5)
+muted on surface2                        5.19 PASS (need 4.5)
+accent on bg                             5.56 PASS (need 4.5)
+accent on surface                        5.09 PASS (need 4.5)
+accentInk on accent                      5.72 PASS (need 4.5)
+accentInk on accentHover                 7.74 PASS (need 4.5)
+bg on ink                                16.05 PASS (need 4.5)
+maroonInk on maroon                      9.92 PASS (need 4.5)
+maroonMuted on maroon                    6.73 PASS (need 4.5)
+error on bg                              6.01 PASS (need 4.5)
+error on surface                         5.50 PASS (need 4.5)
+success on bg                            5.79 PASS (need 4.5)
+accent on surface2                       4.57 PASS (need 3)
+cream on blue                            5.70 PASS (need 4.5)
+
+## DARK
+bg                 oklch(18.0% 0.01 170) #0d1311 
+surface            oklch(22.5% 0.012 170) #161e1b 
+surface2           oklch(27.0% 0.013 170) #202925 
+ink                oklch(92.0% 0.008 95) #e6e5df 
+muted              oklch(72.0% 0.01 120) #a4a69f 
+accent             oklch(76.0% 0.1 243) #77b9ec 
+accentHover        oklch(82.0% 0.08 243) #97cbf4 
+accentInk          oklch(18.0% 0.01 170) #0d1311 
+blueField          oklch(50.0% 0.133 247.3) #0067aa 
+cream              oklch(98.2% 0.048 102.2) #fffbd6 
+maroon             oklch(30.0% 0.07 22.1) #4b1d1d 
+maroonInk          oklch(93.0% 0.012 90) #ebe8df 
+maroonMuted        oklch(80.0% 0.03 40) #d0b8af 
+error              oklch(72.0% 0.15 27) #f47c70 
+success            oklch(74.0% 0.12 155) #66c189 
+ink on bg                                14.82 PASS (need 7)
+ink on surface                           13.46 PASS (need 7)
+ink on surface2                          11.84 PASS (need 4.5)
+muted on bg                              7.58 PASS (need 4.5)
+muted on surface                         6.89 PASS (need 4.5)
+muted on surface2                        6.06 PASS (need 4.5)
+accent on bg                             8.84 PASS (need 4.5)
+accent on surface                        8.03 PASS (need 4.5)
+accentInk on accent                      8.84 PASS (need 4.5)
+accentInk on accentHover                 10.85 PASS (need 4.5)
+bg on ink                                14.82 PASS (need 4.5)
+maroonInk on maroon                      11.43 PASS (need 4.5)
+maroonMuted on maroon                    7.44 PASS (need 4.5)
+error on bg                              7.10 PASS (need 4.5)
+error on surface                         6.44 PASS (need 4.5)
+success on bg                            8.55 PASS (need 4.5)
+accent on surface2                       7.06 PASS (need 3)
+cream on blueField                       5.70 PASS (need 4.5)
+
+## FILM (art tokens, HTML text over flat film grounds)
+parchment          oklch(90.0% 0.035 82) #eadcc5 
+parchmentDeep      oklch(84.0% 0.045 78) #dbc8aa 
+sepia              oklch(30.0% 0.045 55) #3f2717 
+sepiaSoft          oklch(45.0% 0.05 60) #6a4f39 
+forest             oklch(20.0% 0.035 150) #091a0d 
+night              oklch(14.0% 0.015 160) #050b07 
+filmInk            oklch(94.0% 0.01 95) #edebe4 
+amber              oklch(62.0% 0.13 65) #bb731b 
+gold               oklch(76.2% 0.099 80.7) #d2ab66 
+earth              oklch(30.0% 0.05 60) #402712 
+sepia on parchment                       10.23 PASS (need 7)
+sepiaSoft on parchment                   5.59 PASS (need 4.5)
+sepia on parchmentDeep                   8.42 PASS (need 4.5)
+filmInk on forest                        15.07 PASS (need 7)
+filmInk on night                         16.67 PASS (need 7)
+filmInk on earth                         11.58 PASS (need 7)
+gold on night                            9.25 PASS (need 4.5)

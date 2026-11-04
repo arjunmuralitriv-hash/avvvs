@@ -1,0 +1,1955 @@
+{
+ "url": "https://www.kamaayurveda.com",
+ "at": "2026-11-04T06:02:32.797Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 9,
+   "filled": [
+    0.93,
+    0.86,
+    0.75,
+    0.82,
+    0.85,
+    0.76,
+    0.79,
+    0.81,
+    0.79
+   ],
+   "motion": {
+    "elements": 74,
+    "css": 36,
+    "transitions": 31,
+    "scripted": 7,
+    "videos": 10,
+    "playingVideos": 4
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 8043,
+     "screens": 8.9,
+     "words": 2211,
+     "img": 295,
+     "video": 10,
+     "canvas": 0,
+     "svg": 90,
+     "sections": 1,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 114,
+     "videoCount": 10,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "Festive%20Glow__Webloader_D%20(1).webp",
+      "DIWALI_Offers_2.5k_Website%20Exclusive_Webloader",
+      "DIWALI_Offers_6k__Webloader_D.webp",
+      "DIWALI_PGK_Gifting_Webloader_D.webp",
+      "DIWALI_Fizzy%20Goblet_Webloader_D%20(1).webp",
+      "Festive%20Glow__Webloader_D%20(1).webp",
+      "DIWALI_Offers_2.5k_Website%20Exclusive_Webloader",
+      "yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+     ],
+     "blendText": 0,
+     "sideScrollers": 2,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Gifting Essentials",
+     "words": 2,
+     "chars": 18,
+     "lines": 1,
+     "size": 24,
+     "vw": 1.7,
+     "font": "Bell MT",
+     "weight": 500,
+     "tracking": 0,
+     "leading": 1,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.12,
+     "top": 799,
+     "tag": "h2",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Kama Ayurveda: Authentic Ayurveda, Luxuriously Yours",
+     "words": 6,
+     "lines": 1,
+     "size": 28.6,
+     "font": "Bell MT"
+    },
+    "headings": [
+     {
+      "text": "In the Spotlight",
+      "words": 3,
+      "chars": 16,
+      "lines": 1,
+      "size": 28,
+      "vw": 1.9,
+      "font": "Bell MT",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.7,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.71,
+      "top": 1387,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Explore & Shop",
+      "words": 3,
+      "chars": 14,
+      "lines": 1,
+      "size": 28,
+      "vw": 1.9,
+      "font": "Bell MT",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.7,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.71,
+      "top": 3051,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "The Festive Radiance Duo",
+      "words": 4,
+      "chars": 24,
+      "lines": 1,
+      "size": 28,
+      "vw": 1.9,
+      "font": "Bell MT",
+      "weight": 400,
+      "tracking": 0.009,
+      "leading": 1.3,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.71,
+      "top": 4021,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Rituals for Clearer Skin",
+      "words": 4,
+      "chars": 24,
+      "lines": 1,
+      "size": 28,
+      "vw": 1.9,
+      "font": "Bell MT",
+      "weight": 400,
+      "tracking": 0.009,
+      "leading": 1.3,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.71,
+      "top": 5193,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "CHECK OUT OUR TOP BLOGS",
+      "words": 5,
+      "chars": 23,
+      "lines": 1,
+      "size": 28,
+      "vw": 1.9,
+      "font": "Bell MT",
+      "weight": 400,
+      "tracking": 0.009,
+      "leading": 1.3,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.28,
+      "top": 6883,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Kama Ayurveda: Authentic Ayurveda, Luxuriously Yours",
+      "words": 6,
+      "chars": 52,
+      "lines": 1,
+      "size": 28.6,
+      "vw": 2,
+      "font": "Bell MT",
+      "weight": 600,
+      "tracking": 0,
+      "leading": 1.45,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.71,
+      "top": 7695,
+      "tag": "h1",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 6,
+     "maxLines": 1,
+     "over2Lines": 0,
+     "statements": 2,
+     "centered": 2,
+     "medianWords": 4,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Barlow",
+       "share": 0.72,
+       "mono": false
+      },
+      {
+       "family": "Bell MT",
+       "share": 0.28,
+       "mono": false
+      },
+      {
+       "family": "Open Sans",
+       "share": 0,
+       "mono": false
+      }
+     ],
+     "familyCount": 3,
+     "sizes": [
+      8,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      26,
+      28,
+      29
+     ],
+     "sizeCount": 18,
+     "notLoaded": [],
+     "body": {
+      "font": "Barlow",
+      "size": 14,
+      "leading": 1.7,
+      "weight": 400,
+      "tracking": 0.036,
+      "contrast": 7.2
+     },
+     "measureChars": 151,
+     "max": {
+      "size": 28.6,
+      "vw": 2,
+      "font": "Bell MT",
+      "text": "Kama Ayurveda: Authentic Ayurveda, Luxur"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 40,
+     "microLabelShare": 0.026,
+     "microSamples": [
+      "New",
+      "5.0 (20)",
+      "New",
+      "5.0 (20)",
+      "NEW",
+      "5.0 (1)"
+     ],
+     "upperShare": 0.04,
+     "centerShare": 0.13,
+     "smallText": 13
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ffffff",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 1
+     },
+     "dark": false,
+     "sectionBgs": [],
+     "textColors": [
+      {
+       "color": "#575757",
+       "share": 0.54
+      },
+      {
+       "color": "#222222",
+       "share": 0.31
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.07
+      },
+      {
+       "color": "#3e4245",
+       "share": 0.06
+      },
+      {
+       "color": "#3e3e3e",
+       "share": 0.01
+      }
+     ],
+     "button": {
+      "bg": "#3e4245",
+      "hsl": {
+       "h": 206,
+       "s": 0.05,
+       "l": 0.26
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 70,
+     "inHero": 0,
+     "radius": 0,
+     "height": 48,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": []
+    },
+    "surfaces": {
+     "shadowStatic": 22,
+     "shadowOverlay": 1,
+     "shadowSamples": [
+      "div.carousel-item.center → rgba(0, 0, 0, 0.1) 0px 4px 8px 0px",
+      "div.lively_3d_card.svelte-1ukpsma → rgba(0, 0, 0, 0.2) 0px 6px 16px 0px, rgba(0, 0, 0, 0.05) 0px 0px 4px 0px",
+      "div.carousel-item.lively_sf_spotlight_right-1 → rgba(0, 0, 0, 0.1) 0px 4px 8px 0px",
+      "div.lively_3d_card.svelte-1ukpsma → rgba(0, 0, 0, 0.2) 0px 6px 16px 0px, rgba(0, 0, 0, 0.05) 0px 0px 4px 0px"
+     ],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 1,
+     "hairlineSamples": [
+      "div.navbar-desktop_menu-header__3H_05 1440px"
+     ],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 12,
+     "boxRadius": 8,
+     "squareMedia": 171,
+     "roundedMedia": 7,
+     "mediaRadius": 8,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "bg-image",
+      "ratio": 1
+     },
+     {
+      "type": "img",
+      "ratio": 0.46
+     },
+     {
+      "type": "bg-image",
+      "ratio": 0.23
+     }
+    ],
+    "nav": {
+     "links": 4,
+     "fixed": true,
+     "height": 206,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "barlow",
+     "open sans",
+     "bell mt"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 8043,
+    "margins": {
+     "left": 207,
+     "right": 109
+    },
+    "sections": [
+     {
+      "sel": "div.page_content",
+      "tag": "div",
+      "top": 206,
+      "height": 7457,
+      "words": 489,
+      "media": 178,
+      "middle": 3973,
+      "heading": {
+       "text": "In the Spotlight",
+       "size": 28,
+       "tag": "p"
+      },
+      "left": 0,
+      "right": 0,
+      "textLeft": 207,
+      "textRight": 207,
+      "fullBleed": true,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div.container.BelowFooter_belowFooter__YzPE7",
+      "tag": "div",
+      "top": 7695,
+      "height": 316,
+      "words": 116,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Kama Ayurveda: Authentic Ayurveda, Luxuriously You",
+       "size": 29,
+       "tag": "h1"
+      },
+      "left": 207,
+      "right": 233,
+      "textLeft": 207,
+      "textRight": 233,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Kama Ayurveda: Authentic Ayurveda, Luxuriously Yours",
+      "size": 29,
+      "top": 7695,
+      "firstScreen": false
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 207,
+      "n": 8
+     },
+     {
+      "x": 413,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 9,
+    "bodySize": 14,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 9,
+   "filled": [
+    0.86,
+    0.72,
+    0.41,
+    0.65,
+    0.71,
+    0.89,
+    0.64,
+    0.81,
+    0.77
+   ],
+   "motion": {
+    "elements": 49,
+    "css": 36,
+    "transitions": 10,
+    "scripted": 3,
+    "videos": 9,
+    "playingVideos": 4
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 10524,
+     "screens": 10.3,
+     "words": 799,
+     "img": 146,
+     "video": 9,
+     "canvas": 0,
+     "svg": 54,
+     "sections": 1,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 62,
+     "videoCount": 9,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "Festive%20Glow__Webloader_M%20(1).webp",
+      "DIWALI_Offers_2.5k_Website%20Exclusive_Webloader",
+      "DIWALI_Offers_6k__Webloader_M.webp",
+      "DIWALI_PGK_Gifting_Webloader_M.webp",
+      "DIWALI_Fizzy%20Goblet_Webloader_M%20(1).webp",
+      "Festive%20Glow__Webloader_M%20(1).webp",
+      "DIWALI_Offers_2.5k_Website%20Exclusive_Webloader",
+      "01_fizzy-goblet_v-_1_.png?store=default&image-ty"
+     ],
+     "blendText": 0,
+     "sideScrollers": 7,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": null,
+    "h1": {
+     "text": "Kama Ayurveda: Authentic Ayurveda, Luxuriously Yours",
+     "words": 6,
+     "lines": 2,
+     "size": 38.8,
+     "font": "Bell MT"
+    },
+    "headings": [
+     {
+      "text": "In the Spotlight",
+      "words": 3,
+      "chars": 16,
+      "lines": 1,
+      "size": 28,
+      "vw": 3.6,
+      "font": "Bell MT",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.7,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.97,
+      "top": 2130,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Explore & Shop",
+      "words": 3,
+      "chars": 14,
+      "lines": 1,
+      "size": 28,
+      "vw": 3.6,
+      "font": "Bell MT",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.7,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.97,
+      "top": 3962,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "CHECK OUT OUR TOP BLOGS",
+      "words": 5,
+      "chars": 23,
+      "lines": 1,
+      "size": 28,
+      "vw": 3.6,
+      "font": "Bell MT",
+      "weight": 400,
+      "tracking": 0.009,
+      "leading": 1.3,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.52,
+      "top": 9053,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Kama Ayurveda: Authentic Ayurveda, Luxuriously Yours",
+      "words": 6,
+      "chars": 52,
+      "lines": 2,
+      "size": 38.8,
+      "vw": 5.1,
+      "font": "Bell MT",
+      "weight": 600,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.97,
+      "top": 9869,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Experience the Luxury of True Ayurveda",
+      "words": 6,
+      "chars": 38,
+      "lines": 1,
+      "size": 34.1,
+      "vw": 4.4,
+      "font": "Bell MT",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.14,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.97,
+      "top": 9993,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 5,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 2,
+     "centered": 2,
+     "medianWords": 5,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Barlow",
+       "share": 0.57,
+       "mono": false
+      },
+      {
+       "family": "Bell MT",
+       "share": 0.42,
+       "mono": false
+      },
+      {
+       "family": "Open Sans",
+       "share": 0.02,
+       "mono": false
+      }
+     ],
+     "familyCount": 3,
+     "sizes": [
+      7,
+      10,
+      11,
+      12,
+      14,
+      15,
+      16,
+      18,
+      19,
+      20,
+      22,
+      23,
+      24,
+      28,
+      34,
+      39
+     ],
+     "sizeCount": 16,
+     "notLoaded": [],
+     "body": {
+      "font": "Bell MT",
+      "size": 18,
+      "leading": 1.33,
+      "weight": 500,
+      "tracking": 0,
+      "contrast": null
+     },
+     "measureChars": 64,
+     "max": {
+      "size": 38.8,
+      "vw": 5.1,
+      "font": "Bell MT",
+      "text": "Kama Ayurveda: Authentic Ayurveda, Luxur"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 16,
+     "microLabelShare": 0.031,
+     "microSamples": [
+      "New",
+      "5.0 (20)",
+      "NEW",
+      "5.0 (1)",
+      "New & Improv...",
+      "5.0 (44)"
+     ],
+     "upperShare": 0.08,
+     "centerShare": 0.3,
+     "smallText": 17
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ffffff",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 1
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#ffffff",
+       "top": 1431,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#222222",
+       "share": 0.51
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.19
+      },
+      {
+       "color": "#575757",
+       "share": 0.15
+      },
+      {
+       "color": "#3e4245",
+       "share": 0.14
+      },
+      {
+       "color": "#3e3e3e",
+       "share": 0.02
+      }
+     ],
+     "button": {
+      "bg": "#3e4245",
+      "hsl": {
+       "h": 206,
+       "s": 0.05,
+       "l": 0.26
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 34,
+     "inHero": 0,
+     "radius": 0,
+     "height": 44,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": []
+    },
+    "surfaces": {
+     "shadowStatic": 23,
+     "shadowOverlay": 1,
+     "shadowSamples": [
+      "div.category-product-menu → rgba(82, 53, 40, 0.16) 0px 1px 2px 0px",
+      "div.carousel-item.center → rgba(0, 0, 0, 0.1) 0px 4px 8px 0px",
+      "div.lively_3d_card.svelte-1ukpsma → rgba(0, 0, 0, 0.2) 0px 6px 16px 0px, rgba(0, 0, 0, 0.05) 0px 0px 4px 0px",
+      "div.carousel-item.lively_sf_spotlight_right-1 → rgba(0, 0, 0, 0.1) 0px 4px 8px 0px"
+     ],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 1,
+     "hairlineSamples": [
+      "ul 768px"
+     ],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 12,
+     "boxRadius": 8,
+     "squareMedia": 88,
+     "roundedMedia": 8,
+     "mediaRadius": 15,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "bg-image",
+      "ratio": 1
+     },
+     {
+      "type": "img",
+      "ratio": 0.86
+     }
+    ],
+    "nav": {
+     "links": 4,
+     "fixed": true,
+     "height": 72,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "barlow",
+     "open sans",
+     "bell mt"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 10524,
+    "margins": {
+     "left": 12,
+     "right": 5
+    },
+    "sections": [
+     {
+      "sel": "div.page_content",
+      "tag": "div",
+      "top": 95,
+      "height": 9742,
+      "words": 287,
+      "media": 95,
+      "middle": 4371,
+      "heading": {
+       "text": "Gifting Essentials",
+       "size": 24,
+       "tag": "h2"
+      },
+      "left": 0,
+      "right": 0,
+      "textLeft": 12,
+      "textRight": 0,
+      "fullBleed": true,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div.container.BelowFooter_belowFooter__YzPE7",
+      "tag": "div",
+      "top": 9869,
+      "height": 623,
+      "words": 116,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Kama Ayurveda: Authentic Ayurveda, Luxuriously You",
+       "size": 39,
+       "tag": "h1"
+      },
+      "left": 12,
+      "right": 29,
+      "textLeft": 12,
+      "textRight": 29,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Kama Ayurveda: Authentic Ayurveda, Luxuriously Yours",
+      "size": 39,
+      "top": 9869,
+      "firstScreen": false
+     }
+    ],
+    "edgeText": [
+     {
+      "text": "Skincare",
+      "side": "left",
+      "px": 15
+     },
+     {
+      "text": "Bath & Body",
+      "side": "right",
+      "px": 0
+     },
+     {
+      "text": "Ashwaras Collection",
+      "side": "right",
+      "px": 12
+     },
+     {
+      "text": "Gifting Essentials",
+      "side": "left",
+      "px": 12
+     },
+     {
+      "text": "View All",
+      "side": "right",
+      "px": 12
+     },
+     {
+      "text": "royal rose glow ritual",
+      "side": "right",
+      "px": 6
+     },
+     {
+      "text": "2520.00",
+      "side": "right",
+      "px": 5
+     },
+     {
+      "text": "New Launches",
+      "side": "left",
+      "px": 12
+     }
+    ],
+    "edges": [
+     {
+      "x": 12,
+      "n": 19
+     },
+     {
+      "x": 396,
+      "n": 4
+     },
+     {
+      "x": 586,
+      "n": 2
+     },
+     {
+      "x": 37,
+      "n": 1
+     },
+     {
+      "x": 606,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 27,
+    "bodySize": 23,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 10,
+   "filled": [
+    0.89,
+    0.64,
+    0.76,
+    0.64,
+    0.92,
+    0.7,
+    0.64,
+    0.68,
+    0.66,
+    0.78
+   ],
+   "motion": {
+    "elements": 60,
+    "css": 38,
+    "transitions": 19,
+    "scripted": 3,
+    "videos": 8,
+    "playingVideos": 4
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 9366,
+     "screens": 11.1,
+     "words": 799,
+     "img": 146,
+     "video": 8,
+     "canvas": 0,
+     "svg": 54,
+     "sections": 1,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 62,
+     "videoCount": 8,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "Festive%20Glow__Webloader_M%20(1).webp",
+      "DIWALI_Offers_2.5k_Website%20Exclusive_Webloader",
+      "DIWALI_Offers_6k__Webloader_M.webp",
+      "DIWALI_PGK_Gifting_Webloader_M.webp",
+      "DIWALI_Fizzy%20Goblet_Webloader_M%20(1).webp",
+      "Festive%20Glow__Webloader_M%20(1).webp",
+      "DIWALI_Offers_2.5k_Website%20Exclusive_Webloader",
+      "01_fizzy-goblet_v-_1_.png?store=default&image-ty"
+     ],
+     "blendText": 0,
+     "sideScrollers": 7,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": null,
+    "h1": {
+     "text": "Kama Ayurveda: Authentic Ayurveda, Luxuriously Yours",
+     "words": 6,
+     "lines": 2,
+     "size": 19.7,
+     "font": "Bell MT"
+    },
+    "headings": [
+     {
+      "text": "Gifting Essentials",
+      "words": 2,
+      "chars": 18,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Bell MT",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 888,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "In the Spotlight",
+      "words": 3,
+      "chars": 16,
+      "lines": 1,
+      "size": 28,
+      "vw": 7.2,
+      "font": "Bell MT",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.7,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 1511,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "New Launches",
+      "words": 2,
+      "chars": 12,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Bell MT",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 2630,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Explore & Shop",
+      "words": 3,
+      "chars": 14,
+      "lines": 1,
+      "size": 28,
+      "vw": 7.2,
+      "font": "Bell MT",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.7,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 3241,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "The Festive Radiance Duo",
+      "words": 4,
+      "chars": 24,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Bell MT",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.3,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 4262,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Kumkumadi Soft Cream",
+      "words": 3,
+      "chars": 20,
+      "lines": 1,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Bell MT",
+      "weight": 400,
+      "tracking": 0.007,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 4525,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Kumkumadi Night Cream",
+      "words": 3,
+      "chars": 21,
+      "lines": 1,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Bell MT",
+      "weight": 400,
+      "tracking": 0.007,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 4906,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Our Bestsellers",
+      "words": 2,
+      "chars": 15,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Bell MT",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 5166,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Rituals for Clearer Skin",
+      "words": 4,
+      "chars": 24,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Bell MT",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.3,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 5818,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Rose Water",
+      "words": 2,
+      "chars": 10,
+      "lines": 1,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Bell MT",
+      "weight": 400,
+      "tracking": 0.007,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 6080,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Vanasara Brightening Mask",
+      "words": 3,
+      "chars": 25,
+      "lines": 1,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Bell MT",
+      "weight": 400,
+      "tracking": 0.007,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 6461,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Kama is Kind",
+      "words": 3,
+      "chars": 12,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Bell MT",
+      "weight": 400,
+      "tracking": 0.006,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 6964,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "About Ayurveda",
+      "words": 2,
+      "chars": 14,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Bell MT",
+      "weight": 400,
+      "tracking": 0.006,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 7427,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Our Story",
+      "words": 2,
+      "chars": 9,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Bell MT",
+      "weight": 500,
+      "tracking": 0.006,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 7917,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "CHECK OUT OUR TOP BLOGS",
+      "words": 5,
+      "chars": 23,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Bell MT",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.3,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 8188,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 15,
+     "maxLines": 1,
+     "over2Lines": 0,
+     "statements": 2,
+     "centered": 15,
+     "medianWords": 3,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Barlow",
+       "share": 0.57,
+       "mono": false
+      },
+      {
+       "family": "Bell MT",
+       "share": 0.42,
+       "mono": false
+      },
+      {
+       "family": "Open Sans",
+       "share": 0.02,
+       "mono": false
+      }
+     ],
+     "familyCount": 3,
+     "sizes": [
+      6,
+      7,
+      10,
+      11,
+      12,
+      14,
+      15,
+      16,
+      17,
+      18,
+      20,
+      22,
+      24,
+      28
+     ],
+     "sizeCount": 14,
+     "notLoaded": [],
+     "body": {
+      "font": "Barlow",
+      "size": 12,
+      "leading": 1.3,
+      "weight": 400,
+      "tracking": 0.042,
+      "contrast": 7.2
+     },
+     "measureChars": 62,
+     "max": {
+      "size": 28,
+      "vw": 7.2,
+      "font": "Bell MT",
+      "text": "In the Spotlight"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 16,
+     "microLabelShare": 0.031,
+     "microSamples": [
+      "New",
+      "5.0 (20)",
+      "NEW",
+      "5.0 (1)",
+      "New & Improv...",
+      "5.0 (44)"
+     ],
+     "upperShare": 0.08,
+     "centerShare": 0.46,
+     "smallText": 20
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ffffff",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 1
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#f2f2f2",
+       "top": 3334,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 0.95
+       }
+      },
+      {
+       "color": "#ffffff",
+       "top": 3334,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#222222",
+       "share": 0.51
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.19
+      },
+      {
+       "color": "#575757",
+       "share": 0.15
+      },
+      {
+       "color": "#3e4245",
+       "share": 0.14
+      },
+      {
+       "color": "#3e3e3e",
+       "share": 0.02
+      }
+     ],
+     "button": null,
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 37,
+     "inHero": 0,
+     "radius": 0,
+     "height": 44,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": []
+    },
+    "surfaces": {
+     "shadowStatic": 23,
+     "shadowOverlay": 1,
+     "shadowSamples": [
+      "div.category-product-menu → rgba(82, 53, 40, 0.16) 0px 1px 2px 0px",
+      "div.carousel-item.center → rgba(0, 0, 0, 0.1) 0px 4px 8px 0px",
+      "div.lively_3d_card.svelte-1ukpsma → rgba(0, 0, 0, 0.2) 0px 6px 16px 0px, rgba(0, 0, 0, 0.05) 0px 0px 4px 0px",
+      "div.carousel-item.lively_sf_spotlight_right-1 → rgba(0, 0, 0, 0.1) 0px 4px 8px 0px"
+     ],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 1,
+     "hairlineSamples": [
+      "ul 390px"
+     ],
+     "outlinedBoxes": 12,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 24,
+     "boxRadius": 8,
+     "squareMedia": 88,
+     "roundedMedia": 7,
+     "mediaRadius": 15,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "bg-image",
+      "ratio": 1
+     },
+     {
+      "type": "img",
+      "ratio": 0.63
+     },
+     {
+      "type": "bg-image",
+      "ratio": 0.09
+     },
+     {
+      "type": "video",
+      "ratio": 0.09
+     }
+    ],
+    "nav": {
+     "links": 4,
+     "fixed": true,
+     "height": 72,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "barlow",
+     "open sans",
+     "bell mt"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 9366,
+    "margins": {
+     "left": 12,
+     "right": 5
+    },
+    "sections": [
+     {
+      "sel": "div.page_content",
+      "tag": "div",
+      "top": 111,
+      "height": 8845,
+      "words": 275,
+      "media": 94,
+      "middle": 2195,
+      "heading": {
+       "text": "In the Spotlight",
+       "size": 28,
+       "tag": "p"
+      },
+      "left": 12,
+      "right": 0,
+      "textLeft": 12,
+      "textRight": 0,
+      "fullBleed": true,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div.container.BelowFooter_belowFooter__YzPE7",
+      "tag": "div",
+      "top": 8988,
+      "height": 346,
+      "words": 116,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Kama Ayurveda: Authentic Ayurveda, Luxuriously You",
+       "size": 20,
+       "tag": "h1"
+      },
+      "left": 12,
+      "right": 17,
+      "textLeft": 12,
+      "textRight": 17,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Kama Ayurveda: Authentic Ayurveda, Luxuriously Yours",
+      "size": 20,
+      "top": 8988,
+      "firstScreen": false
+     }
+    ],
+    "edgeText": [
+     {
+      "text": "Skincare",
+      "side": "left",
+      "px": 15
+     },
+     {
+      "text": "Kumkumadi Essentials",
+      "side": "right",
+      "px": 0
+     },
+     {
+      "text": "Sandanya Collection",
+      "side": "right",
+      "px": 14
+     },
+     {
+      "text": "royal rose glow ritual",
+      "side": "right",
+      "px": 5
+     },
+     {
+      "text": "1500.00",
+      "side": "right",
+      "px": 5
+     },
+     {
+      "text": "sweet almond botanical oil",
+      "side": "left",
+      "px": 12
+     },
+     {
+      "text": "bringaras nourishing shampoo",
+      "side": "right",
+      "px": 5
+     },
+     {
+      "text": "New & Improv...",
+      "side": "left",
+      "px": 12
+     }
+    ],
+    "edges": [
+     {
+      "x": 12,
+      "n": 4
+     },
+     {
+      "x": 297,
+      "n": 2
+     },
+     {
+      "x": 27,
+      "n": 1
+     },
+     {
+      "x": 312,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 8,
+    "bodySize": 12,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "FAIL",
+   "id": "micro-label",
+   "width": 1440,
+   "message": "40 tiny uppercase letter-spaced labels (e.g. \"New\", \"5.0 (20)\", \"New\", \"5.0 (20)\").",
+   "fix": "Use sentence-case text at a readable size, or delete the label.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "shadow",
+   "width": 1440,
+   "message": "22 box-shadow(s) on elements at rest: div.carousel-item.center → rgba(0, 0, 0, 0.1) 0px 4px 8px 0px | div.lively_3d_card.svelte-1ukpsma → rgba(0, 0, 0, 0.2) 0px 6px 16px 0px, rgba(0, 0, 0, 0.05) 0px 0px 4px 0px | div.carousel-item.lively_sf_spotlight_right-1 → rgba(0, 0, 0, 0.1) 0px 4px 8px 0px",
+   "fix": "Remove. Separate surfaces with a tone step or space. Shadows are for things that really float (menus, dialogs, sticky bars).",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "hairline",
+   "width": 1440,
+   "message": "1 thin rule(s)/divider line(s): div.navbar-desktop_menu-header__3H_05 1440px",
+   "fix": "Delete. Separate with space, a tone change, or scale. Lines are only for real tables and form fields.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "size-count",
+   "width": 1440,
+   "message": "18 different font sizes (8, 10, 11, 12, 13, 14, 15, 16, 18, 19, 20, 21, 22, 23, 24, 26, 28, 29).",
+   "fix": "A page needs about five: display, heading, lead, body, small.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "body-size",
+   "width": 1440,
+   "message": "Body text is 14px (the size most of the running text is set in).",
+   "fix": "Body copy 16–20px. Map small sizes from blueprints onto your body step.",
+   "alsoAt": [
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "first-action",
+   "width": 1440,
+   "message": "No visible button in the first screen.",
+   "fix": "Give the one primary action a real button in the first screen (a filled or solid-bordered control, 44px or taller), not only a link in the navigation.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "side-scroll",
+   "width": 1440,
+   "message": "2 row(s) scroll sideways with content past their edge.",
+   "fix": "Jurors and most visitors read a row cut at the edge as clipped, not as scrollable. Wrap it onto more lines, or end it inside the grid.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "measure",
+   "width": 1440,
+   "message": "Longest paragraph runs about 151 characters per line.",
+   "fix": "Cap paragraphs at 45–75 characters (max-width: 60ch)."
+  },
+  {
+   "level": "FAIL",
+   "id": "small-text",
+   "width": 1440,
+   "message": "13 text blocks under 13px.",
+   "fix": "Nothing meant to be read goes below 13px.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "font-not-dealt",
+   "width": 1440,
+   "message": "The sheet dealt Boska and Boska, but the page renders Barlow, Bell MT.",
+   "fix": "Load the dealt face (the link on the sheet) and put it first in font-family. A build that falls back to a default face lands on the default look."
+  },
+  {
+   "level": "FAIL",
+   "id": "off-centre",
+   "width": 1440,
+   "message": "The page sits off-centre: its content comes to 207px from the left edge but only to 109px from the right, at 1440px.",
+   "fix": "Give the page one pair of equal margins. Check the wrapper for a max-width without margin-inline: auto, a grid with an empty last column, or padding on one side only. If one side is meant to hold air, it must still be closed by something that reaches the margin (a picture, the navigation's last item, a figure)."
+  },
+  {
+   "level": "FAIL",
+   "id": "no-title",
+   "width": 1440,
+   "message": "The h1 (\"Kama Ayurveda: Authentic Ayurveda, Luxuriously You\") is not on the first screen (it starts 7695px down).",
+   "fix": "The title belongs on the first screen, where a visitor decides whether to stay.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "font-count",
+   "width": 768,
+   "message": "3 typefaces in use (Barlow, Bell MT, Open Sans).",
+   "fix": "Two at most.",
+   "alsoAt": [
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "no-hero",
+   "width": 768,
+   "message": "No headline found in the first viewport.",
+   "fix": "The first screen needs a clear focal statement or image.",
+   "alsoAt": [
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "edge-text",
+   "width": 768,
+   "message": "8 text block(s) sit within 16px of the screen edge: \"Skincare\" (15px from the left); \"Bath & Body\" (0px from the right); \"Ashwaras Collection\" (12px from the right); \"Gifting Essentials\" (12px from the left)",
+   "fix": "Keep text inside the page margin (16–32px or more). Only display type deliberately bled past the edge may touch it.",
+   "alsoAt": [
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "outlined-box",
+   "width": 390,
+   "message": "12 boxes drawn with a 1px outline.",
+   "fix": "Define a surface by its fill (one tone step from the page) or leave the content unboxed."
+  },
+  {
+   "level": "FAIL",
+   "id": "covered-text",
+   "width": 390,
+   "message": "Large text lies under another element at some scroll position: \"In the Spotlight\" (screen 2, 25% hidden); \"About Ayurveda\" (screen 9, 25% hidden); \"CHECK OUT OUR TOP BLOGS\" (screen 10, 50% hidden)",
+   "fix": "Nothing may sit on top of a headline or statement. Move the picture, shorten the pinned run, or raise the text above it (z-index) and give it a ground."
+  },
+  {
+   "level": "FAIL",
+   "id": "reduced-hidden",
+   "width": 1440,
+   "message": "With reduced motion requested, 6 text block(s) on the first screen stay invisible: \"Sign in\", \"Register\", \"My Cart\", \"My Account\"",
+   "fix": "Put every hidden starting state inside @media (prefers-reduced-motion: no-preference); the reduced page is the finished page (references/motion.md §8)."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "C:\\Users\\arjun\\Documents\\AVVVS\\docs\\research\\taste\\ref-kama\\desktop-fold.jpg",
+   "pages": [
+    "C:\\Users\\arjun\\Documents\\AVVVS\\docs\\research\\taste\\ref-kama\\desktop-page-01.jpg",
+    "C:\\Users\\arjun\\Documents\\AVVVS\\docs\\research\\taste\\ref-kama\\desktop-page-02.jpg",
+    "C:\\Users\\arjun\\Documents\\AVVVS\\docs\\research\\taste\\ref-kama\\desktop-page-03.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "C:\\Users\\arjun\\Documents\\AVVVS\\docs\\research\\taste\\ref-kama\\tablet-fold.jpg",
+   "pages": [
+    "C:\\Users\\arjun\\Documents\\AVVVS\\docs\\research\\taste\\ref-kama\\tablet-page-01.jpg",
+    "C:\\Users\\arjun\\Documents\\AVVVS\\docs\\research\\taste\\ref-kama\\tablet-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "C:\\Users\\arjun\\Documents\\AVVVS\\docs\\research\\taste\\ref-kama\\mobile-fold.jpg",
+   "pages": [
+    "C:\\Users\\arjun\\Documents\\AVVVS\\docs\\research\\taste\\ref-kama\\mobile-page-01.jpg",
+    "C:\\Users\\arjun\\Documents\\AVVVS\\docs\\research\\taste\\ref-kama\\mobile-page-02.jpg"
+   ],
+   "film": []
+  }
+ ]
+}

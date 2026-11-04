@@ -1,0 +1,8 @@
+/* Hallmark · partial of src/app/globals.css (stamp there) */
+.crumbs { font-size: var(--text-sm); color: var(--color-muted); }
+.crumbs ol { display: flex; flex-wrap: wrap; gap: var(--space-2xs) var(--space-sm); margin: 0; padding: 0; list-style: none; }
+.crumbs li + li::before { content: "/"; margin-right: var(--space-sm); color: var(--color-rule); }
+.crumbs a { display: inline-block; padding-block: var(--space-xs); }
+.crumbs [aria-current="page"] { color: var(--color-ink); }
+.crumbs a:active { color: var(--color-accent); }
+@media (prefers-reduced-motion: reduce) { .crumbs a { transition: none; } }

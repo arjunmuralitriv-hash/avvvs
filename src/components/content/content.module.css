@@ -1,0 +1,22 @@
+/* Hallmark · partial of src/app/globals.css (stamp there) */
+
+/* Breadcrumbs */
+.crumbs { padding-block: var(--space-lg) 0; font-size: var(--text-sm); color: var(--color-muted); }
+.crumbs ol { display: flex; flex-wrap: wrap; gap: var(--space-2xs) var(--space-xs); margin: 0; padding: 0; list-style: none; }
+.crumbs li + li::before { content: "/"; margin-right: var(--space-xs); color: var(--color-rule); }
+.crumbs [aria-current="page"] { color: var(--color-ink); }
+
+/* Structured prose (blog bodies, recipes) */
+.prose { display: grid; gap: var(--space-md); max-width: 65ch; font-size: var(--text-md); line-height: 1.65; }
+.prose h2 { font-size: var(--text-xl); margin-top: var(--space-lg); line-height: 1.15; }
+.prose h3 { font-size: var(--text-lg); margin-top: var(--space-md); }
+.prose ul, .prose ol { margin: 0; padding-left: var(--space-lg); display: grid; gap: var(--space-xs); }
+.prose li { padding-left: var(--space-2xs); }
+
+/* FAQ block */
+.faq { display: grid; gap: var(--space-xl); }
+.faq dl { margin: 0; border-top: var(--rule-double) double var(--color-ink); }
+.faq dl > div { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: var(--gap-columns); padding-block: var(--space-lg); border-bottom: var(--rule-hair) solid var(--color-rule); }
+.faq dt { font-family: var(--font-body); font-weight: 600; font-size: var(--text-lg); line-height: 1.3; }
+.faq dd { margin: 0; max-width: 65ch; }
+@media (max-width: 60rem) { .faq dl > div { grid-template-columns: minmax(0, 1fr); gap: var(--space-xs); } }
