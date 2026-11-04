@@ -31,9 +31,9 @@
 }
 
 .lead {
-  font-size: var(--text-lead);
+  font-size: var(--text-md);
   color: var(--field-clinic-muted);
-  line-height: 1.55;
+  line-height: 1.5;
 }
 
 .actions {
@@ -53,7 +53,7 @@
   background: var(--field-clinic-ink);
   color: var(--field-clinic);
   font-family: var(--font-geist), sans-serif;
-  font-size: var(--text-body);
+  font-size: var(--text-sm);
   font-weight: 500;
   text-decoration: none;
   cursor: pointer;
@@ -76,7 +76,7 @@
   color: var(--field-clinic-ink);
   border: 1px solid var(--field-clinic-ink);
   font-family: var(--font-geist), sans-serif;
-  font-size: var(--text-body);
+  font-size: var(--text-sm);
   font-weight: 500;
   text-decoration: none;
   cursor: pointer;

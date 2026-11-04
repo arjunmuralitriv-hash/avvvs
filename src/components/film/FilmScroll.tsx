@@ -10,25 +10,49 @@ export function FilmScroll() {
   useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
     // Reuse the site Lenis instance (SmoothScroll) so there is one scroller; feed it into ScrollTrigger.
-    const lenis = (window as unknown as { __lenis?: { on: (e: string, f: () => void) => void; off?: (e: string, f: () => void) => void; options?: { lerp?: number } } }).__lenis;
+    const lenis = (window as unknown as {
+      __lenis?: {
+        on: (e: string, f: () => void) => void;
+        off?: (e: string, f: () => void) => void;
+        options?: { lerp?: number };
+      };
+    }).__lenis;
+
     const update = () => ScrollTrigger.update();
     if (lenis) {
       if (lenis.options) lenis.options.lerp = 0.085; // pear's measured feel (CD C10)
       lenis.on("scroll", update);
     }
+
     const st = ScrollTrigger.create({
       trigger: "#film-track",
       start: "top top",
       end: "bottom bottom",
       scrub: true,
       invalidateOnRefresh: true,
-      onUpdate: (self) => film.setTarget(self.progress * PROTOTYPE_END, self.getVelocity()),
+      onUpdate: (self) => {
+        const target = self.progress * PROTOTYPE_END;
+        if (self.progress === 0) {
+          film.p = 0;
+          film.setTarget(0, 0);
+        } else {
+          film.setTarget(target, self.getVelocity());
+        }
+      },
     });
-    film.setTarget(st.progress * PROTOTYPE_END);
+
+    if (st.progress === 0) {
+      film.p = 0;
+      film.setTarget(0, 0);
+    } else {
+      film.setTarget(st.progress * PROTOTYPE_END);
+    }
+
     return () => {
       st.kill();
       lenis?.off?.("scroll", update);
     };
   }, []);
+
   return null;
 }

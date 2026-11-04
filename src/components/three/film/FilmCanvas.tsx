@@ -42,7 +42,7 @@ function PlateRing({ cam, mobile }: { cam: THREE.PerspectiveCamera; mobile: bool
       }),
     [inks],
   );
-  const geo = useMemo(() => new THREE.PlaneGeometry(2.4, 2.4 * (0.82), 48, 24), []);
+  const geo = useMemo(() => new THREE.PlaneGeometry(2.4, 2.4 * 0.82, 48, 24), []);
   useEffect(() => () => { geo.dispose(); mats.forEach((m) => m.dispose()); }, [geo, mats]);
 
   useFrame(() => {
@@ -95,7 +95,6 @@ function Film({ mobile }: { mobile: boolean }) {
   const fbo = useFBO({ samples: mobile ? 0 : 4 });
   const s02Scene = useMemo(() => {
     const s = new THREE.Scene();
-    // a deeper parchment ground than the sheets, so each plate reads as paper lying in archival light
     const g = FILM.parchment2.clone().multiplyScalar(0.52);
     s.background = new THREE.Color().setRGB(g.x, g.y, g.z, THREE.LinearSRGBColorSpace);
     return s;
@@ -103,7 +102,11 @@ function Film({ mobile }: { mobile: boolean }) {
   const s02Cam = useMemo(() => new THREE.PerspectiveCamera(32, 1, 0.1, 100), []);
   const stills = useTexture(STILLS.map((s) => `/film/stills/${s}-${mobile ? "m" : "d"}.webp`));
   const mat = useMemo(() => {
-    stills.forEach((t) => { t.colorSpace = THREE.SRGBColorSpace; t.minFilter = THREE.LinearFilter; t.generateMipmaps = false; });
+    stills.forEach((t) => {
+      t.colorSpace = THREE.SRGBColorSpace;
+      t.minFilter = THREE.LinearFilter;
+      t.generateMipmaps = false;
+    });
     const img = stills[0].image as { width: number; height: number };
     return new THREE.ShaderMaterial({
       glslVersion: THREE.GLSL3,
@@ -111,22 +114,32 @@ function Film({ mobile }: { mobile: boolean }) {
       fragmentShader: compositeFrag,
       depthTest: false,
       uniforms: {
-        uStill0: { value: stills[0] }, uStill1: { value: stills[1] }, uStill2: { value: stills[2] },
+        uStill0: { value: stills[0] },
+        uStill1: { value: stills[1] },
+        uStill2: { value: stills[2] },
         uStillSize: { value: new THREE.Vector2(img.width, img.height) },
         uS02: { value: fbo.texture },
         uRes: { value: new THREE.Vector2() },
-        uP: { value: 0 }, uTime: { value: 0 },
+        uP: { value: 0 },
+        uTime: { value: 0 },
         uKuwahara: { value: mobile ? 2 : 4 },
         uGrain: { value: 0.028 },
-        uNight: { value: FILM.night }, uParchment: { value: FILM.parchment }, uSepia: { value: FILM.sepia },
+        uNight: { value: FILM.night },
+        uParchment: { value: FILM.parchment },
+        uSepia: { value: FILM.sepia },
+        uAmber: { value: FILM.amber },
+        uGold: { value: FILM.gold },
+        uPaper: { value: FILM.paper },
       },
     });
   }, [stills, fbo, mobile]);
+
   const tri = useMemo(() => {
     const g = new THREE.BufferGeometry();
     g.setAttribute("position", new THREE.Float32BufferAttribute([-1, -1, 0, 3, -1, 0, -1, 3, 0], 3));
     return g;
   }, []);
+
   const matRef = useRef(mat);
   const s02CamRef = useRef(s02Cam);
   useEffect(() => {
@@ -136,7 +149,11 @@ function Film({ mobile }: { mobile: boolean }) {
   const sent = useRef(false);
 
   useFrame((state, delta) => {
-    film.p = THREE.MathUtils.damp(film.p, film.target, 6, Math.min(delta, 0.05));
+    if (film.target === 0 && film.p < 0.08) {
+      film.p = 0;
+    } else {
+      film.p = THREE.MathUtils.damp(film.p, film.target, 6, Math.min(delta, 0.05));
+    }
     const p = film.p;
     const currentMat = matRef.current;
     const currentCam = s02CamRef.current;
@@ -144,20 +161,32 @@ function Film({ mobile }: { mobile: boolean }) {
     currentMat.uniforms.uRes.value.set(size.width * dpr, size.height * dpr);
     currentMat.uniforms.uP.value = p;
     currentMat.uniforms.uTime.value = state.clock.elapsedTime;
-    currentMat.uniforms.uGrain.value = p > 0.1444 ? 0.018 : 0.028;
-    if (p > 0.115) {
+    currentMat.uniforms.uGrain.value = p > 0.1444 && p < 0.4464 ? 0.018 : 0.028;
+
+    if (p > 0.115 && p < 0.50) {
       currentCam.aspect = size.width / size.height;
       currentCam.updateProjectionMatrix();
       gl.setRenderTarget(fbo);
       gl.render(s02Scene, currentCam);
       gl.setRenderTarget(null);
     }
+
     gl.render(state.scene, state.camera);
-    if (!sent.current) { sent.current = true; film.live = true; window.dispatchEvent(new Event("film:live")); }
+    if (!sent.current) {
+      sent.current = true;
+      film.live = true;
+      window.dispatchEvent(new Event("film:live"));
+    }
   }, 1);
 
-  useEffect(() => { fbo.setSize(size.width * viewport.dpr, size.height * viewport.dpr); }, [fbo, size, viewport.dpr]);
-  useEffect(() => () => { tri.dispose(); mat.dispose(); }, [tri, mat]);
+  useEffect(() => {
+    fbo.setSize(size.width * viewport.dpr, size.height * viewport.dpr);
+  }, [fbo, size, viewport.dpr]);
+
+  useEffect(() => () => {
+    tri.dispose();
+    mat.dispose();
+  }, [tri, mat]);
 
   return (
     <>
@@ -176,7 +205,9 @@ export default function FilmCanvas() {
       flat
       aria-hidden="true"
       style={{ position: "absolute", inset: 0 }}
-      onCreated={({ gl }) => { gl.outputColorSpace = THREE.SRGBColorSpace; }}
+      onCreated={({ gl }) => {
+        gl.outputColorSpace = THREE.SRGBColorSpace;
+      }}
     >
       <Film mobile={mobile} />
     </Canvas>

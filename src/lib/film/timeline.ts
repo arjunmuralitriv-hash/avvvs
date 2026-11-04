@@ -1,5 +1,4 @@
-// Film timeline: pure data, server-safe. Values from docs/plan/02-storyboard.md §0.2–0.3.
-// Prototype scope (roadmap phase 4): S01 → T1 ink bleed → S02 plate ring.
+// Film timeline: pure data, server-safe. Values from docs/plan/02-storyboard.md §0.2–0.3 and §9.1.
 
 export type SceneId = "s01" | "s02" | "s03" | "s04" | "s05" | "s06";
 
@@ -12,14 +11,23 @@ export const SCENES: Record<SceneId, { start: number; end: number; tone: "dark" 
   s06: { start: 0.92, end: 1.0, tone: "site" },
 };
 
-/** Transition windows: last 12% of the outgoing scene + first 8% of the incoming one. */
+/** Transition windows: last 12% of the outgoing scene + first 8% of the incoming one (storyboard §0.3). */
 export const TRANSITIONS = {
-  t1: { a: 0.1232, b: 0.1656, mid: 0.1444 }, // S01 → S02 ink bleed
-  t2: { a: 0.4216, b: 0.4712, mid: 0.4464 }, // S02 → S03 ember burn
+  t1: { a: 0.1232, b: 0.1656, mid: 0.1444, mode: 1 }, // S01 → S02 ink bleed
+  t2: { a: 0.4216, b: 0.4712, mid: 0.4464, mode: 2 }, // S02 → S03 ember burn
+  t3: { a: 0.5832, b: 0.6112, mid: 0.5972, mode: 3 }, // S03 → S04 liquid displace
+  t4: { a: 0.7232, b: 0.7544, mid: 0.7388, mode: 4 }, // S04 → S05 spiral ring
+  t5: { a: 0.8984, b: 0.9264, mid: 0.9124, mode: 5 }, // S05 → S06 closing burn
 } as const;
 
-/** Prototype track: S01 + S02 only, so the track ends at the S02 end and the scroll map is rescaled. */
-export const PROTOTYPE_END = SCENES.s02.end;
+export const TONE_SWITCH = [
+  { p: 0.1444, tone: "parchment" as const },
+  { p: 0.4464, tone: "dark" as const },
+  { p: 0.9124, tone: "site" as const },
+] as const;
+
+/** Full film scroll end. */
+export const PROTOTYPE_END = 1.0;
 
 export const TRACK_VH = { desktop: 1400, mobile: 1000 } as const;
 
@@ -35,15 +43,22 @@ export const S02_BEATS = {
   specimen: { a: 0.396, b: 0.422 },
 } as const;
 
-/** Text cues (copy ids from 01-creative-direction §4.2). show/hide in film progress p. */
-export const CUES = [
-  { id: "s01.title", show: 0.0, hide: 0.028 },
-  { id: "s01.head", show: 0.056, hide: 0.09 },
-  { id: "s01.caption", show: 0.095, hide: 0.122 },
-  { id: "s02.head", show: 0.17, hide: 0.2 },
-  { id: "s02.plate.0", show: 0.208, hide: 0.24 },
-  { id: "s02.plate.1", show: 0.246, hide: 0.278 },
-  { id: "s02.plate.2", show: 0.285, hide: 0.317 },
-  { id: "s02.plate.3", show: 0.323, hide: 0.355 },
-  { id: "s02.plate.4", show: 0.362, hide: 0.394 },
-] as const;
+export type Cue = { id: string; show: number; hide: number | null; scene: SceneId };
+
+/** Text cues (storyboard §9.1 CUES). show/hide in film progress p. */
+export const CUES: Cue[] = [
+  { id: "s01.title", show: 0.0, hide: 0.028, scene: "s01" }, // visible at first paint, no entry tween
+  { id: "s01.head", show: 0.0588, hide: 0.0896, scene: "s01" },
+  { id: "s01.caption", show: 0.098, hide: 0.1204, scene: "s01" },
+  { id: "s02.head", show: 0.1688, hide: 0.2008, scene: "s02" },
+  { id: "s02.plate.0", show: 0.2194, hide: 0.2378, scene: "s02" },
+  { id: "s02.plate.1", show: 0.2578, hide: 0.2762, scene: "s02" },
+  { id: "s02.plate.2", show: 0.2962, hide: 0.3146, scene: "s02" },
+  { id: "s02.plate.3", show: 0.3346, hide: 0.353, scene: "s02" },
+  { id: "s02.plate.4", show: 0.373, hide: 0.4088, scene: "s02" },
+  { id: "s03.head", show: 0.474, hide: 0.5804, scene: "s03" },
+  { id: "s04.head", show: 0.614, hide: 0.7176, scene: "s04" },
+  { id: "s05.head", show: 0.812, hide: 0.8948, scene: "s05" },
+  { id: "s05.productNames", show: 0.8228, hide: 0.8948, scene: "s05" },
+  { id: "handoff.note", show: 0.928, hide: null, scene: "s06" },
+];

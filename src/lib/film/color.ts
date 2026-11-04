@@ -26,4 +26,7 @@ export const FILM = {
   sepia: oklch(0.3, 0.045, 55),
   sepiaSoft: oklch(0.45, 0.05, 60),
   gold: oklch(0.762, 0.099, 80.7),
+  amber: oklch(0.62, 0.13, 65),
+  earth: oklch(0.3, 0.05, 60),
+  paper: oklch(0.97, 0.002, 140),
 };

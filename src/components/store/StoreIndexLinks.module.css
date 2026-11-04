@@ -34,7 +34,7 @@
 
 .cardCategory {
   font-family: var(--font-geist), sans-serif;
-  font-size: 0.875rem;
+  font-size: 0.8125rem;
   color: var(--muted);
 }
 
@@ -48,16 +48,16 @@
 
 .cardDesc {
   font-family: var(--font-geist), sans-serif;
-  font-size: var(--text-body);
-  color: var(--ink);
-  line-height: 1.55;
+  font-size: var(--text-sm);
+  color: var(--muted);
+  line-height: 1.5;
   margin-top: var(--space-2xs);
 }
 
 .cardAction {
   margin-top: var(--space-lg);
   font-family: var(--font-geist), sans-serif;
-  font-size: var(--text-body);
+  font-size: var(--text-sm);
   color: var(--ink);
   font-weight: 500;
   display: inline-flex;

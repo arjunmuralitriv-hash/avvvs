@@ -30,9 +30,9 @@
 }
 
 .headerNote {
-  font-size: var(--text-body);
-  color: var(--ink);
-  line-height: 1.55;
+  font-size: var(--text-sm);
+  color: var(--muted);
+  line-height: 1.5;
 }
 
 .plateCard {
@@ -63,13 +63,13 @@
 }
 
 .plateMeta {
-  padding: var(--space-md) var(--space-xl);
+  padding: var(--space-sm) var(--space-md);
   background: var(--surface-2);
   display: flex;
   flex-direction: column;
   gap: 2px;
   font-family: var(--font-geist), sans-serif;
-  font-size: 0.875rem;
+  font-size: 0.8125rem;
   color: var(--ink);
 }
 
@@ -99,7 +99,7 @@
   display: flex;
   align-items: center;
   min-height: 72px;
-  padding: var(--space-md) var(--space-xl);
+  padding: var(--space-sm) var(--space-lg);
   text-decoration: none;
   color: var(--ink);
   background: var(--surface);
@@ -118,6 +118,7 @@
     opacity: 0;
     transform: translateX(8px);
   }
+
   to {
     opacity: 1;
     transform: none;
@@ -169,8 +170,8 @@
 }
 
 .gloss {
-  font-size: var(--text-body);
-  color: var(--ink);
+  font-size: 0.8125rem;
+  color: var(--muted);
   font-family: var(--font-geist), sans-serif;
 }
 
@@ -185,13 +186,13 @@
 .count {
   font-variant-numeric: tabular-nums;
   font-weight: 500;
-  font-size: var(--text-body);
+  font-size: var(--text-sm);
   color: var(--ink);
   min-width: 2rem;
 }
 
 .arrow {
-  font-size: var(--text-body);
+  font-size: var(--text-md);
   color: var(--muted);
   transition: transform var(--dur-micro) var(--ease-out), color var(--dur-micro) var(--ease-out);
 }
@@ -205,9 +206,11 @@
   .leftCol {
     grid-column: 1 / -1;
   }
+
   .rightCol {
     grid-column: 1 / -1;
   }
+
   .plateCard {
     display: none;
   }
