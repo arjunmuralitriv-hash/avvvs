@@ -44,3 +44,8 @@ next-env.d.ts
 .hallmark/review-*
 .lighthouseci
 .hallmark/shots/
+assets-src/plates/raw/
+assets-src/keyframes/
+assets-src/stills/raw/
+.taste-skill/
+graphify-out/

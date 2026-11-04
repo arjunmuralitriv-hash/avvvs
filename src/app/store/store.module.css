@@ -1,4 +1,19 @@
-/* Hallmark · partial of src/app/globals.css (stamp there) */
-.page { padding-block: var(--space-2xl) var(--space-3xl); }
-.head { display: grid; gap: var(--space-md); margin-bottom: var(--space-xl); }
-.head h1 { font-size: var(--text-display-s); max-width: 18ch; text-wrap: balance; }
+.page {
+  padding-block: var(--space-2xl) var(--space-3xl);
+}
+
+.head {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+  margin-block: var(--space-xl) var(--space-2xl);
+}
+
+.title {
+  font-family: var(--font-boska), serif;
+  font-weight: 300;
+  font-size: var(--text-section);
+  letter-spacing: -0.02em;
+  color: var(--ink);
+  line-height: 1.05;
+}

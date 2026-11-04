@@ -1,10 +1,33 @@
-/* Hallmark · partial of src/app/globals.css (stamp there) */
-.button { gap: var(--space-xs); }
-.count {
-  display: inline-flex; align-items: center; justify-content: center;
-  min-width: 1.75rem; height: 1.75rem; padding-inline: var(--space-xs);
-  border: var(--rule-hair) solid transparent; border-radius: var(--radius-card);
-  background: var(--color-accent); color: var(--color-accent-ink);
-  font-size: var(--text-sm); font-weight: 600; line-height: 1;
+.button {
+  gap: var(--space-xs);
+  min-height: 44px;
+  padding-inline: var(--space-md);
+  border-radius: var(--radius-card);
+  border: none;
+  background: var(--surface);
+  color: var(--ink);
+  font-size: var(--text-sm);
+  font-weight: 500;
+  transition: background-color var(--dur-micro) var(--ease-out);
 }
-.count[data-empty] { background: transparent; color: var(--color-muted); border-color: var(--color-rule); }
+.button:hover {
+  background: var(--surface-2);
+}
+.count {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 1.25rem;
+  height: 1.25rem;
+  padding-inline: 4px;
+  border-radius: var(--radius-card);
+  background: var(--ink);
+  color: var(--bg);
+  font-size: 0.8125rem;
+  font-weight: 600;
+  line-height: 1;
+}
+.count[data-empty] {
+  background: transparent;
+  color: var(--muted);
+}

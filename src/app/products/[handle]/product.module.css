@@ -1,28 +1,145 @@
-/* Hallmark · partial of src/app/globals.css (stamp there) */
-.page { padding-block: var(--space-lg) var(--space-3xl); }
-.layout { margin-top: var(--space-lg); align-items: start; row-gap: var(--space-xl); }
-.media { grid-column: 1 / 7; }
-.info { grid-column: 8 / 13; display: grid; gap: var(--space-lg); align-content: start; min-width: 0; }
-@media (min-width: 60.01rem) { .media { position: sticky; top: calc(var(--nav-h) + var(--space-lg)); } }
+.page {
+  padding-block: var(--space-lg) var(--space-3xl);
+}
 
-.title { font-size: var(--text-section); max-width: 18ch; }
-.sub { font-size: var(--text-xl); }
+.layout {
+  margin-top: var(--space-lg);
+  align-items: start;
+  row-gap: var(--space-xl);
+}
 
-.about { display: grid; gap: var(--space-sm); }
-.prose { font-size: var(--text-md); max-width: 60ch; }
-.prose p + p, .prose p + ul, .prose ul + p, .prose p + ol { margin-top: var(--space-sm); }
-.prose ul, .prose ol { padding-left: var(--space-lg); margin: 0; }
-.prose a { color: var(--color-accent); text-underline-offset: 0.16em; }
+.media {
+  grid-column: 1 / 7;
+}
 
-.facts { display: grid; margin: 0; border-top: var(--rule-double) double var(--color-ink); }
-.facts > div { display: grid; grid-template-columns: minmax(0, 8rem) minmax(0, 1fr); gap: var(--space-md); padding-block: var(--space-sm); border-bottom: var(--rule-hair) solid var(--color-rule); }
-.facts dt { font-weight: 600; }
-.facts dd { margin: 0; }
-.facts a { display: inline-block; padding-block: var(--space-2xs); }
+.info {
+  grid-column: 8 / 13;
+  display: grid;
+  gap: var(--space-xl);
+  align-content: start;
+  min-width: 0;
+}
 
-.related { margin-top: var(--space-3xl); padding-top: var(--space-xl); border-top: var(--rule-double) double var(--color-ink); }
-.relatedTitle { font-size: var(--text-section); margin-bottom: var(--space-xl); }
-.relatedGrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 16rem), 1fr)); gap: var(--space-lg); margin: 0; padding: 0; list-style: none; }
+@media (min-width: 60.01rem) {
+  .media {
+    position: sticky;
+    top: calc(var(--nav-h) + var(--space-lg));
+  }
+}
 
-.prose a:focus-visible, .facts a:focus-visible { outline: 2px solid var(--color-focus); outline-offset: 2px; transition: none; }
-.prose a:active, .facts a:active { color: var(--color-accent-deep); }
+.title {
+  font-family: var(--font-boska), serif;
+  font-weight: 300;
+  font-size: var(--text-section);
+  color: var(--ink);
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+  max-width: 18ch;
+}
+
+.sub {
+  font-family: var(--font-boska), serif;
+  font-weight: 400;
+  font-size: var(--text-title);
+  color: var(--ink);
+}
+
+.about {
+  display: grid;
+  gap: var(--space-sm);
+}
+
+.prose {
+  font-size: var(--text-body);
+  color: var(--ink);
+  line-height: 1.6;
+  max-width: 60ch;
+}
+
+.prose p + p,
+.prose p + ul,
+.prose ul + p,
+.prose p + ol {
+  margin-top: var(--space-sm);
+}
+
+.prose ul,
+.prose ol {
+  padding-left: var(--space-lg);
+  margin: 0;
+}
+
+.prose a {
+  color: var(--ink);
+  text-decoration: underline;
+  text-underline-offset: 0.16em;
+}
+
+.facts {
+  display: grid;
+  margin: 0;
+  padding: var(--space-xl);
+  background: var(--surface);
+  border-radius: var(--radius-card);
+  gap: var(--space-sm);
+}
+
+.facts > div {
+  display: grid;
+  grid-template-columns: minmax(0, 8rem) minmax(0, 1fr);
+  gap: var(--space-md);
+  padding-block: var(--space-xs);
+}
+
+.facts dt {
+  font-family: var(--font-geist), sans-serif;
+  font-size: var(--text-sm);
+  color: var(--muted);
+  font-weight: 500;
+}
+
+.facts dd {
+  margin: 0;
+  font-family: var(--font-geist), sans-serif;
+  font-size: var(--text-sm);
+  color: var(--ink);
+}
+
+.facts a {
+  display: inline-block;
+  color: var(--ink);
+  text-decoration: underline;
+  text-underline-offset: 0.16em;
+}
+
+.related {
+  margin-top: var(--space-3xl);
+  padding-top: var(--space-2xl);
+}
+
+.relatedTitle {
+  font-family: var(--font-boska), serif;
+  font-weight: 300;
+  font-size: var(--text-section);
+  color: var(--ink);
+  letter-spacing: -0.02em;
+  margin-bottom: var(--space-xl);
+}
+
+.relatedGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 16rem), 1fr));
+  gap: var(--space-lg);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+@media (max-width: 60rem) {
+  .media {
+    grid-column: 1 / -1;
+  }
+  .info {
+    grid-column: 1 / -1;
+  }
+}

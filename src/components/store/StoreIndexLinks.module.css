@@ -1,0 +1,77 @@
+.section {
+  padding-block: var(--space-3xl);
+  margin-top: var(--space-xl);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--space-xl);
+}
+
+.cardLink {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: var(--space-2xl);
+  background: var(--surface);
+  border-radius: var(--radius-card);
+  text-decoration: none;
+  min-height: 220px;
+  transition: background-color var(--dur-micro) var(--ease-out), transform var(--dur-short) var(--ease-out);
+}
+
+.cardLink:hover {
+  background: var(--surface-2);
+  transform: translateY(-2px);
+}
+
+.cardContent {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+}
+
+.cardCategory {
+  font-family: var(--font-geist), sans-serif;
+  font-size: 0.875rem;
+  color: var(--muted);
+}
+
+.cardTitle {
+  font-family: var(--font-boska), serif;
+  font-size: var(--text-title);
+  font-weight: 400;
+  color: var(--ink);
+  line-height: 1.2;
+}
+
+.cardDesc {
+  font-family: var(--font-geist), sans-serif;
+  font-size: var(--text-body);
+  color: var(--ink);
+  line-height: 1.55;
+  margin-top: var(--space-2xs);
+}
+
+.cardAction {
+  margin-top: var(--space-lg);
+  font-family: var(--font-geist), sans-serif;
+  font-size: var(--text-body);
+  color: var(--ink);
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2xs);
+  transition: transform var(--dur-micro) var(--ease-out);
+}
+
+.cardLink:hover .cardAction {
+  transform: translateX(4px);
+}
+
+@media (max-width: 48rem) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}

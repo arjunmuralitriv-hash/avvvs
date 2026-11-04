@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
-import { Crimson_Pro, Hanken_Grotesk, Noto_Serif_Malayalam } from "next/font/google";
+import localFont from "next/font/local";
+import { Geist, Noto_Serif_Malayalam } from "next/font/google";
 import { ViewTransition } from "react";
 import "./globals.css";
 import { Nav } from "@/components/site/Nav";
@@ -9,9 +10,30 @@ import { CartProvider } from "@/components/store/CartProvider";
 import { JsonLd, organizationSchema, websiteSchema } from "@/lib/seo";
 import { SITE_URL, org } from "@/lib/site";
 
-const crimson = Crimson_Pro({ subsets: ["latin"], weight: ["400", "600"], variable: "--font-crimson", display: "swap" });
-const hanken = Hanken_Grotesk({ subsets: ["latin"], weight: ["400", "500", "600"], variable: "--font-hanken", display: "swap" });
-const malayalam = Noto_Serif_Malayalam({ subsets: ["malayalam"], weight: ["400"], variable: "--font-ml", display: "swap", preload: false });
+const boska = localFont({
+  src: [
+    { path: "./fonts/boska/Boska-Light.woff2", weight: "300", style: "normal" },
+    { path: "./fonts/boska/Boska-Regular.woff2", weight: "400", style: "normal" },
+    { path: "./fonts/boska/Boska-Italic.woff2", weight: "400", style: "italic" },
+    { path: "./fonts/boska/Boska-Medium.woff2", weight: "500", style: "normal" },
+  ],
+  variable: "--font-boska",
+  display: "swap",
+});
+
+const geist = Geist({
+  subsets: ["latin"],
+  variable: "--font-geist",
+  display: "swap",
+});
+
+const malayalam = Noto_Serif_Malayalam({
+  subsets: ["malayalam"],
+  weight: ["400"],
+  variable: "--font-noto-serif-ml",
+  display: "swap",
+  preload: false,
+});
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -26,7 +48,7 @@ export const viewport: Viewport = { themeColor: "#f3ecdc", colorScheme: "light" 
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
-    <html lang="en-IN" className={`${crimson.variable} ${hanken.variable} ${malayalam.variable}`}>
+    <html lang="en-IN" className={`${boska.variable} ${geist.variable} ${malayalam.variable}`}>
       <body>
         <CartProvider>
         <a href="#main" className="skip-link">Skip to content</a>

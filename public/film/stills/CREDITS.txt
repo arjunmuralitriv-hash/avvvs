@@ -1,0 +1,7 @@
+s01-evergreen	CC0	https://commons.wikimedia.org/wiki/File:Evergreen_forest_of_Silent_Valley_Np_Kerala.jpg	Silent Valley National Park, Kerala. Wikimedia Commons, CC0.
+s01-shola-1	CC0	https://commons.wikimedia.org/wiki/File:Shola_Forest_Silent_valley_NP_(1).jpg	Shola forest, Silent Valley National Park, Kerala. Wikimedia Commons, CC0.
+s01-shola-2	CC0	https://commons.wikimedia.org/wiki/File:Shola_Forest_Silent_valley_NP_(2).jpg	Shola forest, Silent Valley National Park, Kerala. Wikimedia Commons, CC0.
+s01-shola-3	CC0	https://commons.wikimedia.org/wiki/File:Shola_Forest_Silent_valley_NP_(3).jpg	Shola forest, Silent Valley National Park, Kerala. Wikimedia Commons, CC0.
+s01-vitex-1	CC BY-SA 4.0	https://commons.wikimedia.org/wiki/File:Vitex_negundo-1-bsi-yercaud-salem-India.JPG	Vitex negundo, Botanical Survey of India garden, Yercaud. Wikimedia Commons, CC BY-SA 4.0.
+s01-vitex-2	CC BY-SA 4.0	https://commons.wikimedia.org/wiki/File:Vitex_negundo-2-bsi-yercaud-salem-India.JPG	Vitex negundo, Botanical Survey of India garden, Yercaud. Wikimedia Commons, CC BY-SA 4.0.
+s01-vitex-3	CC BY-SA 4.0	https://commons.wikimedia.org/wiki/File:Vitex_negundo-3-bsi-yercaud-salem-India.JPG	Vitex negundo, Botanical Survey of India garden, Yercaud. Wikimedia Commons, CC BY-SA 4.0.

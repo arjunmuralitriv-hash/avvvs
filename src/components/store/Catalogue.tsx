@@ -2,6 +2,8 @@ import Link from "next/link";
 import { JsonLd, abs } from "@/lib/seo";
 import { COLLECTION_ORDER, collectionLabel, getProducts } from "@/lib/shopify";
 import { titleCase, typeLabel } from "@/lib/shopify/format";
+import { deriveForm, FORMS } from "@/lib/medicines/forms";
+import type { FormId } from "@/lib/medicines/types";
 import { buildHref, hasFilters, matchesSearch, PAGE_SIZE, parseQuery, sortProducts, DEFAULT_QUERY, type CatalogueQuery } from "./catalogue-query";
 import { CatalogueControls } from "./CatalogueControls";
 import { LedgerTable } from "./LedgerTable";
@@ -11,17 +13,23 @@ import styles from "./Catalogue.module.css";
 type Props = {
   /** Collection handle, or undefined for the whole store. */
   collection?: string;
+  /** Form id, e.g. "thailam", "kashayam". */
+  form?: string;
   searchParams: Promise<Record<string, string | string[] | undefined>>;
 };
 
 /** The catalogue body. Server-rendered from the URL: collection tabs, form chips, controls, results, pages. */
-export async function Catalogue({ collection, searchParams }: Props) {
+export async function Catalogue({ collection, form, searchParams }: Props) {
   const query = parseQuery(await searchParams);
-  const basePath = collection ? `/store/${collection}` : "/store";
+  const basePath = form ? `/store/${form}` : collection ? `/store/${collection}` : "/store";
   const all = await getProducts();
 
-  const inCollection = collection ? all.filter((p) => p.collections.includes(collection)) : all;
-  const searched = query.q ? inCollection.filter((p) => matchesSearch(p, query.q)) : inCollection;
+  const baseSet = form
+    ? all.filter((p) => deriveForm(p.productType, p.title) === form)
+    : collection
+    ? all.filter((p) => p.collections.includes(collection))
+    : all;
+  const searched = query.q ? baseSet.filter((p) => matchesSearch(p, query.q)) : baseSet;
 
   // Form chips count the search results, so the numbers always match what a click will show.
   const typeCounts = new Map<string, number>();
@@ -35,11 +43,12 @@ export async function Catalogue({ collection, searchParams }: Props) {
   const shown = matched.slice(start, start + PAGE_SIZE);
   const q: CatalogueQuery = { ...query, page };
 
-  const where = collection ? `the ${collectionLabel(collection)} collection` : "the store";
-  const listName = collection ? `${collectionLabel(collection)} medicines` : "Medicines";
+  const formDef = form ? FORMS[form as FormId] : null;
+  const where = formDef ? `the ${formDef.label} preparations` : collection ? `the ${collectionLabel(collection)} collection` : "the store";
+  const listName = formDef ? `${formDef.plural} (${formDef.label})` : collection ? `${collectionLabel(collection)} medicines` : "Medicines";
   const noun = (n: number) => (n === 1 ? "medicine" : "medicines");
   const summary = hasFilters(query)
-    ? `Showing ${matched.length} of ${inCollection.length} ${noun(inCollection.length)} in ${where}`
+    ? `Showing ${matched.length} of ${baseSet.length} ${noun(baseSet.length)} in ${where}`
     : `${matched.length} ${noun(matched.length)} in ${where}`;
 
   return (
@@ -99,8 +108,8 @@ export async function Catalogue({ collection, searchParams }: Props) {
 
       {shown.length === 0 ? (
         <div className={styles.empty}>
-          <p className="lead">{inCollection.length === 0 ? `No medicines are listed in ${where} at the moment.` : "No medicines match these filters."}</p>
-          {inCollection.length > 0 ? (
+          <p className="lead">{baseSet.length === 0 ? `No medicines are listed in ${where} at the moment.` : "No medicines match these filters."}</p>
+          {baseSet.length > 0 ? (
             <Link href={buildHref(basePath, { ...DEFAULT_QUERY, sort: query.sort, view: query.view })} className="btn">
               Clear filters
             </Link>

@@ -1,0 +1,51 @@
+/* Hallmark · partial of src/app/globals.css (stamp there) · film prototype, S01 + T1 + S02 */
+:root {
+  --film-night: oklch(14% 0.015 160);
+  --film-ink: oklch(94% 0.01 95);
+  --film-sepia: oklch(30% 0.045 55);
+  --film-parchment: oklch(90% 0.035 82);
+  --film-ease: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Track: 0.46 of the 1300vh scroll distance (S01+S02) plus the 100svh stage. */
+.film-track { position: relative; height: calc(0.46 * 1300vh + 100svh); background: var(--film-night); }
+@media (max-width: 47.99rem) { .film-track { height: calc(0.46 * 900vh + 100svh); } }
+
+.film__stage { position: sticky; top: 0; height: 100svh; overflow: clip; background: var(--film-night); }
+.film__stage canvas { opacity: 0; transition: opacity 600ms var(--film-ease); }
+.film[data-ready="true"] .film__stage canvas { opacity: 1; }
+
+.film__text { position: absolute; inset: 0; pointer-events: none; z-index: 2; }
+
+/* Cue: lower-left copy zone, headline bottom at 68% of the screen (storyboard §2). */
+.cue {
+  position: absolute; left: clamp(20px, 6vw, 96px); bottom: 32svh; max-width: 26ch;
+  color: var(--film-ink); opacity: 0; transform: translateY(18px);
+  transition: opacity 640ms var(--film-ease), transform 760ms var(--film-ease);
+}
+.cue--right { left: auto; right: clamp(20px, 6vw, 96px); text-align: right; }
+.cue[data-on="true"] { opacity: 1; transform: none; }
+:root[data-film-tone="parchment"] .cue--parchment { color: var(--film-sepia); }
+
+.cue__display, .cue__head {
+  margin: 0; font-family: var(--font-display); font-weight: 400; letter-spacing: -0.02em; line-height: 0.98; max-width: 16ch;
+  text-wrap: balance; overflow-wrap: break-word; min-width: 0;
+}
+.cue__display { font-size: clamp(3rem, 7.2vw, 7.5rem); }
+.cue__head { font-size: clamp(2.1rem, 4.4vw, 4.4rem); }
+.cue__lead, .cue__caption, .cue__binomial, .cue__ref, .cue__in { margin: 16px 0 0; font-family: var(--font-body); font-size: clamp(0.95rem, 1.1vw, 1.125rem); line-height: 1.45; max-width: 38ch; }
+.cue__binomial { font-family: var(--font-display); font-size: clamp(1.25rem, 1.8vw, 1.75rem); margin-top: 6px; }
+.cue__ref { margin: 0 0 10px; opacity: 0.72; }
+.cue__in { opacity: 0.8; }
+.cue--plate { bottom: 18svh; }
+.cue--title { bottom: 40svh; }
+
+/* Static film (reduced motion, no WebGL): the copy reads as a normal page. */
+.film[data-mode="static"] .film__stage { position: relative; height: auto; padding: 18svh 0; }
+.film-track:has(.film[data-mode="static"]) { height: auto; }
+.film[data-mode="static"] .film__text { position: relative; display: grid; gap: 14svh; }
+.film[data-mode="static"] .cue { position: relative; inset: auto; opacity: 1; transform: none; margin-inline: clamp(20px, 6vw, 96px); }
+.film[data-mode="static"] .cue--right { text-align: left; }
+
+@media (prefers-reduced-motion: reduce) { .cue { transition: none; } }
+@media (max-width: 47.99rem) { .cue { bottom: auto; top: 12svh; } .cue--plate { top: auto; bottom: 8svh; } .cue--right { right: auto; left: 20px; text-align: left; } }
