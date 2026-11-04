@@ -138,6 +138,7 @@ export default function FilmPage() {
           </div>
         </section>
       </FilmStage>
+      <div id="site" tabIndex={-1} style={{ position: "absolute", bottom: 0, height: 1, width: 1, pointerEvents: "none" }} />
     </div>
   );
 }

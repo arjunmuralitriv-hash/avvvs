@@ -21,8 +21,8 @@
 
 .subtitle {
   font-family: var(--font-geist), sans-serif;
-  font-size: var(--text-body);
-  color: var(--ink);
+  font-size: var(--text-sm);
+  color: var(--muted);
 }
 
 .grid {
@@ -52,6 +52,7 @@
     opacity: 0;
     transform: translateY(16px);
   }
+
   to {
     opacity: 1;
     transform: none;
@@ -92,7 +93,7 @@
 }
 
 .meta {
-  padding: var(--space-xl);
+  padding: var(--space-lg);
   display: flex;
   flex-direction: column;
   gap: 4px;
@@ -100,7 +101,7 @@
 
 .formTag {
   font-family: var(--font-geist), sans-serif;
-  font-size: 0.875rem;
+  font-size: 0.8125rem;
   color: var(--muted);
 }
 
@@ -121,14 +122,14 @@
 }
 
 .pack {
-  font-size: var(--text-body);
-  color: var(--ink);
+  font-size: 0.8125rem;
+  color: var(--muted);
   font-family: var(--font-geist), sans-serif;
 }
 
 .price {
   font-variant-numeric: tabular-nums;
-  font-size: var(--text-body);
+  font-size: var(--text-sm);
   font-weight: 600;
   color: var(--ink);
 }
@@ -141,19 +142,6 @@
 
 @media (max-width: 36rem) {
   .grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: var(--space-md);
-  }
-  .meta {
-    padding: var(--space-md);
-  }
-  .name {
-    font-size: 1.125rem;
-  }
-  .pack {
-    font-size: 0.8125rem;
-  }
-  .price {
-    font-size: 0.875rem;
+    grid-template-columns: 1fr;
   }
 }

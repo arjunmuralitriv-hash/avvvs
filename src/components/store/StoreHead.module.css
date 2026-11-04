@@ -16,14 +16,6 @@
   z-index: 1;
 }
 
-.heritageMark {
-  font-family: var(--font-malayalam);
-  font-size: 0.875rem;
-  color: var(--muted);
-  line-height: 1.4;
-  letter-spacing: 0.02em;
-}
-
 .h1 {
   font-family: var(--font-boska), serif;
   font-weight: 300;
@@ -38,7 +30,7 @@
   font-size: var(--text-lead);
   color: var(--ink);
   max-width: 32rem;
-  line-height: 1.55;
+  line-height: 1.5;
 }
 
 .visualCol {
@@ -52,7 +44,7 @@
 .plateShowcase {
   position: relative;
   width: 100%;
-  height: 320px;
+  height: 300px;
   border-radius: var(--radius-card);
   overflow: hidden;
   background: var(--surface);
@@ -78,9 +70,11 @@
   0% {
     transform: scale(1.02) translate(0, 0);
   }
+
   50% {
     transform: scale(1.06) translate(-1%, -1.5%);
   }
+
   100% {
     transform: scale(1.03) translate(1%, 0.5%);
   }
@@ -90,19 +84,15 @@
   position: relative;
   z-index: 2;
   margin: var(--space-md);
-  padding: var(--space-sm) var(--space-md);
+  padding: var(--space-xs) var(--space-sm);
   background: var(--surface);
   border-radius: var(--radius-card);
   display: flex;
   flex-direction: column;
   gap: 2px;
   font-family: var(--font-geist), sans-serif;
-  font-size: 0.875rem;
+  font-size: 0.8125rem;
   color: var(--ink);
-}
-
-.plateSource {
-  font-weight: 500;
 }
 
 .plateLatin {
@@ -126,7 +116,6 @@
 
 .input {
   flex: 1 1 auto;
-  min-width: 0;
   min-height: 44px;
   border: none;
   background: transparent;
@@ -141,11 +130,10 @@
 }
 
 .submitBtn {
-  flex-shrink: 0;
   min-height: 44px;
-  padding-inline: var(--space-xl);
+  padding-inline: var(--space-lg);
   font-family: var(--font-geist), sans-serif;
-  font-size: var(--text-body);
+  font-size: 0.875rem;
   font-weight: 500;
   border: none;
   border-radius: var(--radius-card);
@@ -157,7 +145,7 @@
 }
 
 .submitBtn:hover {
-  background: oklch(24% 0.02 160);
+  background: oklch(28% 0.02 165);
 }
 
 .submitBtn:active {
@@ -168,9 +156,11 @@
   .text {
     grid-column: 1 / -1;
   }
+
   .visualCol {
     grid-column: 1 / -1;
   }
+
   .plateShowcase {
     height: 240px;
   }
