@@ -336,7 +336,6 @@ void main() {
   col += g * uGrain;
 
   outColor = vec4(col, 1.0);
-  #include <colorspace_fragment>
 }`;
 
 // Parchment plate: procedural paper + the engraving's ink (multiplied), lit like a sheet under archival light.
@@ -415,5 +414,4 @@ void main() {
   col *= 0.72 + 0.34 * diff;
   col *= mix(0.62, 1.0, uFocus);
   outColor = vec4(col, uOpacity);
-  #include <colorspace_fragment>
 }`;
