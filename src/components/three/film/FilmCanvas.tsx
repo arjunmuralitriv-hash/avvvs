@@ -10,7 +10,14 @@ import { seg, smoother, S02_BEATS } from "@/lib/film/timeline";
 import { plates } from "@/content/plates";
 import { compositeFrag, compositeVert, plateFrag, plateVert } from "./shaders";
 
-const STILLS = ["s01-evergreen", "s01-shola-2", "s01-vitex-1"];
+const STILLS = [
+  "s01-evergreen",
+  "s01-shola-2",
+  "s01-vitex-1",
+  "s03-extraction",
+  "s04-uruli",
+  "s05-products",
+];
 const RING_R = 3.4;
 const N = plates.length;
 
@@ -37,6 +44,7 @@ function PlateRing({ cam, mobile }: { cam: THREE.PerspectiveCamera; mobile: bool
             uFocus: { value: 0 },
             uOpacity: { value: 1 },
             uCurl: { value: 0.25 },
+            uTime: { value: 0 },
           },
         });
       }),
@@ -45,8 +53,9 @@ function PlateRing({ cam, mobile }: { cam: THREE.PerspectiveCamera; mobile: bool
   const geo = useMemo(() => new THREE.PlaneGeometry(2.4, 2.4 * 0.82, 48, 24), []);
   useEffect(() => () => { geo.dispose(); mats.forEach((m) => m.dispose()); }, [geo, mats]);
 
-  useFrame(() => {
+  useFrame((state) => {
     const p = film.p;
+    const time = state.clock.elapsedTime;
     // ring reveal: start on plate 0 filling the frame (matches the S01 Vitex macro), pull back to the ring
     const reveal = smoother(seg(p, 0.14, S02_BEATS.ringReveal.b));
     // which plate is in front: 0..N-1 across the plates beat, eased within each plate
@@ -63,6 +72,7 @@ function PlateRing({ cam, mobile }: { cam: THREE.PerspectiveCamera; mobile: bool
     mats.forEach((m, i) => {
       const focus = 1 - Math.min(1, Math.abs(i - front));
       m.uniforms.uFocus.value = THREE.MathUtils.lerp(m.uniforms.uFocus.value, focus, 0.08);
+      m.uniforms.uTime.value = time;
     });
     // camera: close on plate 0 → pulled back; plate in focus comes forward a little
     const near = mobile ? 2.6 : 2.15;
@@ -117,18 +127,24 @@ function Film({ mobile }: { mobile: boolean }) {
         uStill0: { value: stills[0] },
         uStill1: { value: stills[1] },
         uStill2: { value: stills[2] },
+        uStill3: { value: stills[3] },
+        uStill4: { value: stills[4] },
+        uStill5: { value: stills[5] },
         uStillSize: { value: new THREE.Vector2(img.width, img.height) },
         uS02: { value: fbo.texture },
         uRes: { value: new THREE.Vector2() },
         uP: { value: 0 },
         uTime: { value: 0 },
-        uKuwahara: { value: mobile ? 2 : 4 },
-        uGrain: { value: 0.028 },
+        uKuwahara: { value: mobile ? 1.5 : 2.5 },
+        uGrain: { value: 0.024 },
         uNight: { value: FILM.night },
+        uForest: { value: FILM.forest },
         uParchment: { value: FILM.parchment },
+        uParchment2: { value: FILM.parchment2 },
         uSepia: { value: FILM.sepia },
         uAmber: { value: FILM.amber },
         uGold: { value: FILM.gold },
+        uEarth: { value: FILM.earth },
         uPaper: { value: FILM.paper },
       },
     });

@@ -1,0 +1,221 @@
+.section {
+  padding-block: clamp(5rem, 9vw, 8rem);
+  background: var(--surface, oklch(96% 0.01 85));
+  position: relative;
+}
+
+.mainGrid {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: clamp(3rem, 6vw, 6rem);
+  align-items: center;
+  margin-bottom: clamp(4rem, 7vw, 6rem);
+}
+
+.infoCol {
+  display: flex;
+  flex-direction: column;
+}
+
+.eyebrow {
+  display: inline-block;
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--color-gold, #B69A62);
+  margin-bottom: var(--space-sm);
+}
+
+.title {
+  font-family: var(--font-boska), serif;
+  font-size: clamp(2.25rem, 4vw, 3.5rem);
+  font-weight: 300;
+  line-height: 1.12;
+  letter-spacing: -0.025em;
+  color: var(--color-forest, #142B22);
+  margin: 0 0 var(--space-lg);
+  text-wrap: balance;
+}
+
+.lead {
+  font-family: var(--font-body);
+  font-size: clamp(1rem, 1.25vw, 1.2rem);
+  line-height: 1.6;
+  color: var(--ink);
+  margin: 0 0 var(--space-xl);
+  max-width: 50ch;
+}
+
+.specialties {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+  margin-bottom: var(--space-2xl);
+}
+
+.specialtyItem {
+  display: flex;
+  gap: var(--space-md);
+  align-items: baseline;
+  font-size: 0.9375rem;
+  line-height: 1.5;
+  color: var(--ink);
+}
+
+.bullet {
+  color: var(--color-gold, #B69A62);
+  font-size: 0.8125rem;
+  flex-shrink: 0;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-md);
+  align-items: center;
+}
+
+/* Clinic Card */
+.clinicCard {
+  background: var(--bg);
+  border: 1px solid var(--border-soft);
+  border-radius: var(--radius-card);
+  padding: clamp(1.75rem, 3vw, 2.5rem);
+  box-shadow: 0 16px 40px -12px oklch(20% 0.02 55 / 0.08);
+}
+
+.cardTag {
+  display: inline-block;
+  font-size: 0.6875rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: var(--color-gold, #B69A62);
+  margin-bottom: var(--space-xs);
+}
+
+.clinicName {
+  font-family: var(--font-boska), serif;
+  font-size: 1.65rem;
+  font-weight: 400;
+  color: var(--color-forest, #142B22);
+  margin: 0 0 4px;
+}
+
+.landmark {
+  font-size: 0.875rem;
+  color: var(--muted);
+  margin: 0 0 var(--space-lg);
+}
+
+.detailsGroup {
+  margin-bottom: var(--space-md);
+  padding-top: var(--space-md);
+  border-top: 1px solid var(--border-soft);
+}
+
+.detailLabel {
+  display: block;
+  font-size: 0.6875rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 6px;
+  font-weight: 500;
+}
+
+.address {
+  font-style: normal;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  color: var(--ink);
+}
+
+.slots {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.slotPill {
+  font-size: 0.8125rem;
+  padding: 4px 10px;
+  background: var(--color-paper-2, oklch(93% 0.015 85));
+  border-radius: var(--radius-card);
+  color: var(--ink);
+  font-variant-numeric: tabular-nums;
+}
+
+.phones {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.phoneLink {
+  font-size: 0.875rem;
+  color: var(--ink);
+  text-decoration: none;
+  font-variant-numeric: tabular-nums;
+  transition: color var(--dur-micro) var(--ease-out);
+}
+
+.phoneLink:hover {
+  color: var(--color-gold, #B69A62);
+}
+
+/* Trust Matrix */
+.trustMatrix {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--space-xl);
+  padding-top: clamp(2rem, 4vw, 3rem);
+  border-top: 1px solid var(--border-soft);
+}
+
+.trustItem {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.trustNumber {
+  font-family: var(--font-boska), serif;
+  font-size: clamp(2rem, 3.5vw, 2.75rem);
+  font-weight: 300;
+  color: var(--color-gold, #B69A62);
+  line-height: 1;
+}
+
+.trustLabel {
+  font-family: var(--font-body);
+  font-size: 0.9375rem;
+  font-weight: 600;
+  color: var(--color-forest, #142B22);
+}
+
+.trustSub {
+  font-size: 0.8125rem;
+  color: var(--muted);
+  line-height: 1.4;
+}
+
+@media (max-width: 56rem) {
+  .mainGrid {
+    grid-template-columns: 1fr;
+    gap: var(--space-3xl);
+  }
+
+  .trustMatrix {
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-xl);
+  }
+}
+
+@media (max-width: 34rem) {
+  .trustMatrix {
+    grid-template-columns: 1fr;
+  }
+}

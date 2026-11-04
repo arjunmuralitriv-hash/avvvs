@@ -17,16 +17,16 @@ export function oklchToLinear(l: number, c: number, hDeg: number): [number, numb
 
 export const oklch = (l: number, c: number, h: number) => new THREE.Vector3(...oklchToLinear(l, c, h));
 
-/** Film palette (01-creative-direction §3.3 `--film-*`), linear sRGB for shaders. */
+/** Film palette (Luxury Ayurveda: RANAVAT × Forest Essentials × Aesop), linear sRGB for shaders. */
 export const FILM = {
-  night: oklch(0.14, 0.015, 160),
-  forest: oklch(0.2, 0.035, 150),
-  parchment: oklch(0.9, 0.035, 82),
-  parchment2: oklch(0.84, 0.045, 78),
-  sepia: oklch(0.3, 0.045, 55),
-  sepiaSoft: oklch(0.45, 0.05, 60),
-  gold: oklch(0.762, 0.099, 80.7),
-  amber: oklch(0.62, 0.13, 65),
-  earth: oklch(0.3, 0.05, 60),
-  paper: oklch(0.97, 0.002, 140),
+  night: oklch(0.24, 0.04, 165),       // Deep Forest Green #142B22
+  forest: oklch(0.38, 0.05, 150),      // Botanical Green #344C38
+  parchment: oklch(0.915, 0.015, 85),  // Warm Ivory / Rag Paper #F4F0E7
+  parchment2: oklch(0.86, 0.025, 82),  // Aged deckle edge
+  sepia: oklch(0.28, 0.035, 55),       // Sepia engraving ink #3D2E24
+  sepiaSoft: oklch(0.45, 0.045, 60),
+  gold: oklch(0.68, 0.10, 85),         // Antique Gold #B69A62
+  amber: oklch(0.62, 0.13, 65),        // Luminous amber oil #D98218
+  earth: oklch(0.42, 0.05, 65),        // Earth Brown #69513C
+  paper: oklch(0.95, 0.01, 85),        // Clean site paper
 };
